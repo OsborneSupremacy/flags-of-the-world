@@ -1,0 +1,3501 @@
+[
+ {
+  "code": "ad",
+  "name": "Andorra",
+  "aliases": [
+   "Principality of Andorra",
+   "Principat d'Andorra"
+  ],
+  "region": "Europe",
+  "subregion": "Southern Europe",
+  "unMember": true,
+  "capital": [
+   "Andorra la Vella"
+  ]
+ },
+ {
+  "code": "ae",
+  "name": "United Arab Emirates",
+  "aliases": [
+   "UAE",
+   "Emirates"
+  ],
+  "region": "Asia",
+  "subregion": "Western Asia",
+  "unMember": true,
+  "capital": [
+   "Abu Dhabi"
+  ]
+ },
+ {
+  "code": "af",
+  "name": "Afghanistan",
+  "aliases": [
+   "Islamic Republic of Afghanistan",
+   "Afġānistān"
+  ],
+  "region": "Asia",
+  "subregion": "Southern Asia",
+  "unMember": true,
+  "capital": [
+   "Kabul"
+  ]
+ },
+ {
+  "code": "ag",
+  "name": "Antigua and Barbuda",
+  "aliases": [],
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "unMember": true,
+  "capital": [
+   "Saint John's"
+  ]
+ },
+ {
+  "code": "ai",
+  "name": "Anguilla",
+  "aliases": [],
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "unMember": false,
+  "capital": [
+   "The Valley"
+  ]
+ },
+ {
+  "code": "al",
+  "name": "Albania",
+  "aliases": [
+   "Republic of Albania",
+   "Shqipëri",
+   "Shqipëria",
+   "Shqipnia"
+  ],
+  "region": "Europe",
+  "subregion": "Southeast Europe",
+  "unMember": true,
+  "capital": [
+   "Tirana"
+  ]
+ },
+ {
+  "code": "am",
+  "name": "Armenia",
+  "aliases": [
+   "Republic of Armenia",
+   "Hayastan"
+  ],
+  "region": "Asia",
+  "subregion": "Western Asia",
+  "unMember": true,
+  "capital": [
+   "Yerevan"
+  ]
+ },
+ {
+  "code": "ao",
+  "name": "Angola",
+  "aliases": [
+   "Republic of Angola",
+   "República de Angola",
+   "ʁɛpublika de an'ɡɔla"
+  ],
+  "region": "Africa",
+  "subregion": "Middle Africa",
+  "unMember": true,
+  "capital": [
+   "Luanda"
+  ]
+ },
+ {
+  "code": "aq",
+  "name": "Antarctica",
+  "aliases": [],
+  "region": "Antarctic",
+  "subregion": "",
+  "unMember": false,
+  "capital": []
+ },
+ {
+  "code": "ar",
+  "name": "Argentina",
+  "aliases": [
+   "Argentine Republic",
+   "República Argentina"
+  ],
+  "region": "Americas",
+  "subregion": "South America",
+  "unMember": true,
+  "capital": [
+   "Buenos Aires"
+  ]
+ },
+ {
+  "code": "as",
+  "name": "American Samoa",
+  "aliases": [
+   "Amerika Sāmoa",
+   "Amelika Sāmoa",
+   "Sāmoa Amelika"
+  ],
+  "region": "Oceania",
+  "subregion": "Polynesia",
+  "unMember": false,
+  "capital": [
+   "Pago Pago"
+  ]
+ },
+ {
+  "code": "at",
+  "name": "Austria",
+  "aliases": [
+   "Republic of Austria",
+   "Osterreich",
+   "Oesterreich"
+  ],
+  "region": "Europe",
+  "subregion": "Central Europe",
+  "unMember": true,
+  "capital": [
+   "Vienna"
+  ]
+ },
+ {
+  "code": "au",
+  "name": "Australia",
+  "aliases": [
+   "Commonwealth of Australia"
+  ],
+  "region": "Oceania",
+  "subregion": "Australia and New Zealand",
+  "unMember": true,
+  "capital": [
+   "Canberra"
+  ]
+ },
+ {
+  "code": "aw",
+  "name": "Aruba",
+  "aliases": [],
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "unMember": false,
+  "capital": [
+   "Oranjestad"
+  ]
+ },
+ {
+  "code": "ax",
+  "name": "Åland Islands",
+  "aliases": [
+   "Aaland",
+   "Aland",
+   "Ahvenanmaa"
+  ],
+  "region": "Europe",
+  "subregion": "Northern Europe",
+  "unMember": false,
+  "capital": [
+   "Mariehamn"
+  ]
+ },
+ {
+  "code": "az",
+  "name": "Azerbaijan",
+  "aliases": [
+   "Republic of Azerbaijan",
+   "Azərbaycan Respublikası"
+  ],
+  "region": "Asia",
+  "subregion": "Western Asia",
+  "unMember": true,
+  "capital": [
+   "Baku"
+  ]
+ },
+ {
+  "code": "ba",
+  "name": "Bosnia and Herzegovina",
+  "aliases": [
+   "Bosnia-Herzegovina"
+  ],
+  "region": "Europe",
+  "subregion": "Southeast Europe",
+  "unMember": true,
+  "capital": [
+   "Sarajevo"
+  ]
+ },
+ {
+  "code": "bb",
+  "name": "Barbados",
+  "aliases": [],
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "unMember": true,
+  "capital": [
+   "Bridgetown"
+  ]
+ },
+ {
+  "code": "bd",
+  "name": "Bangladesh",
+  "aliases": [
+   "People's Republic of Bangladesh",
+   "Gônôprôjatôntri Bangladesh"
+  ],
+  "region": "Asia",
+  "subregion": "Southern Asia",
+  "unMember": true,
+  "capital": [
+   "Dhaka"
+  ]
+ },
+ {
+  "code": "be",
+  "name": "Belgium",
+  "aliases": [
+   "Kingdom of Belgium",
+   "België",
+   "Belgie",
+   "Belgien",
+   "Belgique",
+   "Koninkrijk België",
+   "Royaume de Belgique",
+   "Königreich Belgien"
+  ],
+  "region": "Europe",
+  "subregion": "Western Europe",
+  "unMember": true,
+  "capital": [
+   "Brussels"
+  ]
+ },
+ {
+  "code": "bf",
+  "name": "Burkina Faso",
+  "aliases": [],
+  "region": "Africa",
+  "subregion": "Western Africa",
+  "unMember": true,
+  "capital": [
+   "Ouagadougou"
+  ]
+ },
+ {
+  "code": "bg",
+  "name": "Bulgaria",
+  "aliases": [
+   "Republic of Bulgaria"
+  ],
+  "region": "Europe",
+  "subregion": "Southeast Europe",
+  "unMember": true,
+  "capital": [
+   "Sofia"
+  ]
+ },
+ {
+  "code": "bh",
+  "name": "Bahrain",
+  "aliases": [
+   "Kingdom of Bahrain",
+   "Mamlakat al-Baḥrayn"
+  ],
+  "region": "Asia",
+  "subregion": "Western Asia",
+  "unMember": true,
+  "capital": [
+   "Manama"
+  ]
+ },
+ {
+  "code": "bi",
+  "name": "Burundi",
+  "aliases": [
+   "Republic of Burundi",
+   "Republika y'Uburundi",
+   "République du Burundi"
+  ],
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "unMember": true,
+  "capital": [
+   "Gitega"
+  ]
+ },
+ {
+  "code": "bj",
+  "name": "Benin",
+  "aliases": [
+   "Republic of Benin",
+   "République du Bénin"
+  ],
+  "region": "Africa",
+  "subregion": "Western Africa",
+  "unMember": true,
+  "capital": [
+   "Porto-Novo"
+  ]
+ },
+ {
+  "code": "bl",
+  "name": "Saint Barthélemy",
+  "aliases": [
+   "Collectivity of Saint Barthélemy",
+   "St. Barthelemy",
+   "Collectivité de Saint-Barthélemy"
+  ],
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "unMember": false,
+  "capital": [
+   "Gustavia"
+  ]
+ },
+ {
+  "code": "bm",
+  "name": "Bermuda",
+  "aliases": [
+   "The Islands of Bermuda",
+   "The Bermudas",
+   "Somers Isles"
+  ],
+  "region": "Americas",
+  "subregion": "North America",
+  "unMember": false,
+  "capital": [
+   "Hamilton"
+  ]
+ },
+ {
+  "code": "bn",
+  "name": "Brunei",
+  "aliases": [
+   "Nation of Brunei, Abode of Peace",
+   "Brunei Darussalam",
+   "Nation of Brunei",
+   "the Abode of Peace"
+  ],
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "unMember": true,
+  "capital": [
+   "Bandar Seri Begawan"
+  ]
+ },
+ {
+  "code": "bo",
+  "name": "Bolivia",
+  "aliases": [
+   "Plurinational State of Bolivia",
+   "Buliwya",
+   "Wuliwya",
+   "Bolivia, Plurinational State of",
+   "Estado Plurinacional de Bolivia",
+   "Buliwya Mamallaqta",
+   "Wuliwya Suyu",
+   "Tetã Volívia"
+  ],
+  "region": "Americas",
+  "subregion": "South America",
+  "unMember": true,
+  "capital": [
+   "Sucre"
+  ]
+ },
+ {
+  "code": "bq",
+  "name": "Caribbean Netherlands",
+  "aliases": [
+   "Bonaire, Sint Eustatius and Saba",
+   "BES islands",
+   "Bonaire Sint Eustatius and Saba"
+  ],
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "unMember": false,
+  "capital": [
+   "Kralendijk",
+   "Oranjestad",
+   "The Bottom"
+  ]
+ },
+ {
+  "code": "br",
+  "name": "Brazil",
+  "aliases": [
+   "Federative Republic of Brazil",
+   "Brasil",
+   "República Federativa do Brasil"
+  ],
+  "region": "Americas",
+  "subregion": "South America",
+  "unMember": true,
+  "capital": [
+   "Brasília"
+  ]
+ },
+ {
+  "code": "bs",
+  "name": "Bahamas",
+  "aliases": [
+   "Commonwealth of the Bahamas"
+  ],
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "unMember": true,
+  "capital": [
+   "Nassau"
+  ]
+ },
+ {
+  "code": "bt",
+  "name": "Bhutan",
+  "aliases": [
+   "Kingdom of Bhutan"
+  ],
+  "region": "Asia",
+  "subregion": "Southern Asia",
+  "unMember": true,
+  "capital": [
+   "Thimphu"
+  ]
+ },
+ {
+  "code": "bv",
+  "name": "Bouvet Island",
+  "aliases": [
+   "Bouvetøya",
+   "Bouvet-øya"
+  ],
+  "region": "Antarctic",
+  "subregion": "",
+  "unMember": false,
+  "capital": []
+ },
+ {
+  "code": "bw",
+  "name": "Botswana",
+  "aliases": [
+   "Republic of Botswana",
+   "Lefatshe la Botswana"
+  ],
+  "region": "Africa",
+  "subregion": "Southern Africa",
+  "unMember": true,
+  "capital": [
+   "Gaborone"
+  ]
+ },
+ {
+  "code": "by",
+  "name": "Belarus",
+  "aliases": [
+   "Republic of Belarus",
+   "Bielaruś"
+  ],
+  "region": "Europe",
+  "subregion": "Eastern Europe",
+  "unMember": true,
+  "capital": [
+   "Minsk"
+  ]
+ },
+ {
+  "code": "bz",
+  "name": "Belize",
+  "aliases": [],
+  "region": "Americas",
+  "subregion": "Central America",
+  "unMember": true,
+  "capital": [
+   "Belmopan"
+  ]
+ },
+ {
+  "code": "ca",
+  "name": "Canada",
+  "aliases": [],
+  "region": "Americas",
+  "subregion": "North America",
+  "unMember": true,
+  "capital": [
+   "Ottawa"
+  ]
+ },
+ {
+  "code": "cc",
+  "name": "Cocos (Keeling) Islands",
+  "aliases": [
+   "Territory of the Cocos (Keeling) Islands",
+   "Keeling Islands",
+   "Cocos Islands"
+  ],
+  "region": "Oceania",
+  "subregion": "Australia and New Zealand",
+  "unMember": false,
+  "capital": [
+   "West Island"
+  ]
+ },
+ {
+  "code": "cd",
+  "name": "DR Congo",
+  "aliases": [
+   "Democratic Republic of the Congo",
+   "Congo-Kinshasa",
+   "Congo, the Democratic Republic of the",
+   "Democratic Republic of Congo",
+   "DRC"
+  ],
+  "region": "Africa",
+  "subregion": "Middle Africa",
+  "unMember": true,
+  "capital": [
+   "Kinshasa"
+  ]
+ },
+ {
+  "code": "cf",
+  "name": "Central African Republic",
+  "aliases": [
+   "République centrafricaine"
+  ],
+  "region": "Africa",
+  "subregion": "Middle Africa",
+  "unMember": true,
+  "capital": [
+   "Bangui"
+  ]
+ },
+ {
+  "code": "cg",
+  "name": "Republic of the Congo",
+  "aliases": [
+   "Congo",
+   "Congo-Brazzaville"
+  ],
+  "region": "Africa",
+  "subregion": "Middle Africa",
+  "unMember": true,
+  "capital": [
+   "Brazzaville"
+  ]
+ },
+ {
+  "code": "ch",
+  "name": "Switzerland",
+  "aliases": [
+   "Swiss Confederation",
+   "Schweiz",
+   "Suisse",
+   "Svizzera",
+   "Svizra"
+  ],
+  "region": "Europe",
+  "subregion": "Western Europe",
+  "unMember": true,
+  "capital": [
+   "Bern"
+  ]
+ },
+ {
+  "code": "ci",
+  "name": "Ivory Coast",
+  "aliases": [
+   "Republic of Côte d'Ivoire",
+   "Côte d'Ivoire",
+   "Cote d'Ivoire",
+   "République de Côte d'Ivoire"
+  ],
+  "region": "Africa",
+  "subregion": "Western Africa",
+  "unMember": true,
+  "capital": [
+   "Yamoussoukro"
+  ]
+ },
+ {
+  "code": "ck",
+  "name": "Cook Islands",
+  "aliases": [
+   "Kūki 'Āirani"
+  ],
+  "region": "Oceania",
+  "subregion": "Polynesia",
+  "unMember": false,
+  "capital": [
+   "Avarua"
+  ]
+ },
+ {
+  "code": "cl",
+  "name": "Chile",
+  "aliases": [
+   "Republic of Chile",
+   "República de Chile"
+  ],
+  "region": "Americas",
+  "subregion": "South America",
+  "unMember": true,
+  "capital": [
+   "Santiago"
+  ]
+ },
+ {
+  "code": "cm",
+  "name": "Cameroon",
+  "aliases": [
+   "Republic of Cameroon",
+   "République du Cameroun"
+  ],
+  "region": "Africa",
+  "subregion": "Middle Africa",
+  "unMember": true,
+  "capital": [
+   "Yaoundé"
+  ]
+ },
+ {
+  "code": "cn",
+  "name": "China",
+  "aliases": [
+   "People's Republic of China",
+   "Zhōngguó",
+   "Zhongguo",
+   "Zhonghua",
+   "Zhōnghuá Rénmín Gònghéguó"
+  ],
+  "region": "Asia",
+  "subregion": "Eastern Asia",
+  "unMember": true,
+  "capital": [
+   "Beijing"
+  ]
+ },
+ {
+  "code": "co",
+  "name": "Colombia",
+  "aliases": [
+   "Republic of Colombia",
+   "República de Colombia"
+  ],
+  "region": "Americas",
+  "subregion": "South America",
+  "unMember": true,
+  "capital": [
+   "Bogotá"
+  ]
+ },
+ {
+  "code": "cr",
+  "name": "Costa Rica",
+  "aliases": [
+   "Republic of Costa Rica",
+   "República de Costa Rica"
+  ],
+  "region": "Americas",
+  "subregion": "Central America",
+  "unMember": true,
+  "capital": [
+   "San José"
+  ]
+ },
+ {
+  "code": "cu",
+  "name": "Cuba",
+  "aliases": [
+   "Republic of Cuba",
+   "República de Cuba"
+  ],
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "unMember": true,
+  "capital": [
+   "Havana"
+  ]
+ },
+ {
+  "code": "cv",
+  "name": "Cape Verde",
+  "aliases": [
+   "Republic of Cabo Verde",
+   "República de Cabo Verde"
+  ],
+  "region": "Africa",
+  "subregion": "Western Africa",
+  "unMember": true,
+  "capital": [
+   "Praia"
+  ]
+ },
+ {
+  "code": "cw",
+  "name": "Curaçao",
+  "aliases": [
+   "Country of Curaçao",
+   "Curacao",
+   "Kòrsou",
+   "Land Curaçao",
+   "Pais Kòrsou"
+  ],
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "unMember": false,
+  "capital": [
+   "Willemstad"
+  ]
+ },
+ {
+  "code": "cx",
+  "name": "Christmas Island",
+  "aliases": [
+   "Territory of Christmas Island"
+  ],
+  "region": "Oceania",
+  "subregion": "Australia and New Zealand",
+  "unMember": false,
+  "capital": [
+   "Flying Fish Cove"
+  ]
+ },
+ {
+  "code": "cy",
+  "name": "Cyprus",
+  "aliases": [
+   "Republic of Cyprus",
+   "Kýpros",
+   "Kıbrıs",
+   "Kıbrıs Cumhuriyeti"
+  ],
+  "region": "Europe",
+  "subregion": "Southern Europe",
+  "unMember": true,
+  "capital": [
+   "Nicosia"
+  ]
+ },
+ {
+  "code": "cz",
+  "name": "Czechia",
+  "aliases": [
+   "Czech Republic",
+   "Česká republika",
+   "Česko"
+  ],
+  "region": "Europe",
+  "subregion": "Central Europe",
+  "unMember": true,
+  "capital": [
+   "Prague"
+  ]
+ },
+ {
+  "code": "de",
+  "name": "Germany",
+  "aliases": [
+   "Federal Republic of Germany",
+   "Bundesrepublik Deutschland"
+  ],
+  "region": "Europe",
+  "subregion": "Western Europe",
+  "unMember": true,
+  "capital": [
+   "Berlin"
+  ]
+ },
+ {
+  "code": "dj",
+  "name": "Djibouti",
+  "aliases": [
+   "Republic of Djibouti",
+   "Jabuuti",
+   "Gabuuti",
+   "République de Djibouti",
+   "Gabuutih Ummuuno",
+   "Jamhuuriyadda Jabuuti"
+  ],
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "unMember": true,
+  "capital": [
+   "Djibouti"
+  ]
+ },
+ {
+  "code": "dk",
+  "name": "Denmark",
+  "aliases": [
+   "Kingdom of Denmark",
+   "Danmark",
+   "Kongeriget Danmark"
+  ],
+  "region": "Europe",
+  "subregion": "Northern Europe",
+  "unMember": true,
+  "capital": [
+   "Copenhagen"
+  ]
+ },
+ {
+  "code": "dm",
+  "name": "Dominica",
+  "aliases": [
+   "Commonwealth of Dominica",
+   "Dominique"
+  ],
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "unMember": true,
+  "capital": [
+   "Roseau"
+  ]
+ },
+ {
+  "code": "do",
+  "name": "Dominican Republic",
+  "aliases": [],
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "unMember": true,
+  "capital": [
+   "Santo Domingo"
+  ]
+ },
+ {
+  "code": "dz",
+  "name": "Algeria",
+  "aliases": [
+   "People's Democratic Republic of Algeria",
+   "Dzayer",
+   "Algérie"
+  ],
+  "region": "Africa",
+  "subregion": "Northern Africa",
+  "unMember": true,
+  "capital": [
+   "Algiers"
+  ]
+ },
+ {
+  "code": "ec",
+  "name": "Ecuador",
+  "aliases": [
+   "Republic of Ecuador",
+   "República del Ecuador"
+  ],
+  "region": "Americas",
+  "subregion": "South America",
+  "unMember": true,
+  "capital": [
+   "Quito"
+  ]
+ },
+ {
+  "code": "ee",
+  "name": "Estonia",
+  "aliases": [
+   "Republic of Estonia",
+   "Eesti",
+   "Eesti Vabariik"
+  ],
+  "region": "Europe",
+  "subregion": "Northern Europe",
+  "unMember": true,
+  "capital": [
+   "Tallinn"
+  ]
+ },
+ {
+  "code": "eg",
+  "name": "Egypt",
+  "aliases": [
+   "Arab Republic of Egypt"
+  ],
+  "region": "Africa",
+  "subregion": "Northern Africa",
+  "unMember": true,
+  "capital": [
+   "Cairo"
+  ]
+ },
+ {
+  "code": "eh",
+  "name": "Western Sahara",
+  "aliases": [
+   "Sahrawi Arab Democratic Republic",
+   "Taneẓroft Tutrimt"
+  ],
+  "region": "Africa",
+  "subregion": "Northern Africa",
+  "unMember": false,
+  "capital": [
+   "El Aaiún"
+  ]
+ },
+ {
+  "code": "er",
+  "name": "Eritrea",
+  "aliases": [
+   "State of Eritrea",
+   "Dawlat Iritriyá",
+   "Iritriyā"
+  ],
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "unMember": true,
+  "capital": [
+   "Asmara"
+  ]
+ },
+ {
+  "code": "es",
+  "name": "Spain",
+  "aliases": [
+   "Kingdom of Spain",
+   "Reino de España"
+  ],
+  "region": "Europe",
+  "subregion": "Southern Europe",
+  "unMember": true,
+  "capital": [
+   "Madrid"
+  ]
+ },
+ {
+  "code": "et",
+  "name": "Ethiopia",
+  "aliases": [
+   "Federal Democratic Republic of Ethiopia"
+  ],
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "unMember": true,
+  "capital": [
+   "Addis Ababa"
+  ]
+ },
+ {
+  "code": "fi",
+  "name": "Finland",
+  "aliases": [
+   "Republic of Finland",
+   "Suomi",
+   "Suomen tasavalta",
+   "Republiken Finland"
+  ],
+  "region": "Europe",
+  "subregion": "Northern Europe",
+  "unMember": true,
+  "capital": [
+   "Helsinki"
+  ]
+ },
+ {
+  "code": "fj",
+  "name": "Fiji",
+  "aliases": [
+   "Republic of Fiji",
+   "Viti",
+   "Matanitu ko Viti",
+   "Fijī Gaṇarājya"
+  ],
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "unMember": true,
+  "capital": [
+   "Suva"
+  ]
+ },
+ {
+  "code": "fk",
+  "name": "Falkland Islands",
+  "aliases": [
+   "Islas Malvinas",
+   "Falkland Islands (Malvinas)"
+  ],
+  "region": "Americas",
+  "subregion": "South America",
+  "unMember": false,
+  "capital": [
+   "Stanley"
+  ]
+ },
+ {
+  "code": "fm",
+  "name": "Micronesia",
+  "aliases": [
+   "Federated States of Micronesia",
+   "Micronesia, Federated States of"
+  ],
+  "region": "Oceania",
+  "subregion": "Micronesia",
+  "unMember": true,
+  "capital": [
+   "Palikir"
+  ]
+ },
+ {
+  "code": "fo",
+  "name": "Faroe Islands",
+  "aliases": [
+   "Føroyar",
+   "Færøerne",
+   "Faeroe Islands"
+  ],
+  "region": "Europe",
+  "subregion": "Northern Europe",
+  "unMember": false,
+  "capital": [
+   "Tórshavn"
+  ]
+ },
+ {
+  "code": "fr",
+  "name": "France",
+  "aliases": [
+   "French Republic",
+   "République française"
+  ],
+  "region": "Europe",
+  "subregion": "Western Europe",
+  "unMember": true,
+  "capital": [
+   "Paris"
+  ]
+ },
+ {
+  "code": "ga",
+  "name": "Gabon",
+  "aliases": [
+   "Gabonese Republic",
+   "République Gabonaise"
+  ],
+  "region": "Africa",
+  "subregion": "Middle Africa",
+  "unMember": true,
+  "capital": [
+   "Libreville"
+  ]
+ },
+ {
+  "code": "gb",
+  "name": "United Kingdom",
+  "aliases": [
+   "United Kingdom of Great Britain and Northern Ireland",
+   "UK",
+   "Great Britain"
+  ],
+  "region": "Europe",
+  "subregion": "Northern Europe",
+  "unMember": true,
+  "capital": [
+   "London"
+  ]
+ },
+ {
+  "code": "gd",
+  "name": "Grenada",
+  "aliases": [],
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "unMember": true,
+  "capital": [
+   "St. George's"
+  ]
+ },
+ {
+  "code": "ge",
+  "name": "Georgia",
+  "aliases": [
+   "Sakartvelo"
+  ],
+  "region": "Asia",
+  "subregion": "Western Asia",
+  "unMember": true,
+  "capital": [
+   "Tbilisi"
+  ]
+ },
+ {
+  "code": "gf",
+  "name": "French Guiana",
+  "aliases": [
+   "Guiana",
+   "Guyane"
+  ],
+  "region": "Americas",
+  "subregion": "South America",
+  "unMember": false,
+  "capital": [
+   "Cayenne"
+  ]
+ },
+ {
+  "code": "gg",
+  "name": "Guernsey",
+  "aliases": [
+   "Bailiwick of Guernsey",
+   "Bailliage de Guernesey"
+  ],
+  "region": "Europe",
+  "subregion": "Northern Europe",
+  "unMember": false,
+  "capital": [
+   "St. Peter Port"
+  ]
+ },
+ {
+  "code": "gh",
+  "name": "Ghana",
+  "aliases": [
+   "Republic of Ghana"
+  ],
+  "region": "Africa",
+  "subregion": "Western Africa",
+  "unMember": true,
+  "capital": [
+   "Accra"
+  ]
+ },
+ {
+  "code": "gi",
+  "name": "Gibraltar",
+  "aliases": [],
+  "region": "Europe",
+  "subregion": "Southern Europe",
+  "unMember": false,
+  "capital": [
+   "Gibraltar"
+  ]
+ },
+ {
+  "code": "gl",
+  "name": "Greenland",
+  "aliases": [
+   "Grønland"
+  ],
+  "region": "Americas",
+  "subregion": "North America",
+  "unMember": false,
+  "capital": [
+   "Nuuk"
+  ]
+ },
+ {
+  "code": "gm",
+  "name": "Gambia",
+  "aliases": [
+   "Republic of the Gambia"
+  ],
+  "region": "Africa",
+  "subregion": "Western Africa",
+  "unMember": true,
+  "capital": [
+   "Banjul"
+  ]
+ },
+ {
+  "code": "gn",
+  "name": "Guinea",
+  "aliases": [
+   "Republic of Guinea",
+   "République de Guinée"
+  ],
+  "region": "Africa",
+  "subregion": "Western Africa",
+  "unMember": true,
+  "capital": [
+   "Conakry"
+  ]
+ },
+ {
+  "code": "gp",
+  "name": "Guadeloupe",
+  "aliases": [
+   "Gwadloup"
+  ],
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "unMember": false,
+  "capital": [
+   "Basse-Terre"
+  ]
+ },
+ {
+  "code": "gq",
+  "name": "Equatorial Guinea",
+  "aliases": [
+   "Republic of Equatorial Guinea",
+   "República de Guinea Ecuatorial",
+   "République de Guinée équatoriale",
+   "República da Guiné Equatorial"
+  ],
+  "region": "Africa",
+  "subregion": "Middle Africa",
+  "unMember": true,
+  "capital": [
+   "Malabo"
+  ]
+ },
+ {
+  "code": "gr",
+  "name": "Greece",
+  "aliases": [
+   "Hellenic Republic",
+   "Elláda"
+  ],
+  "region": "Europe",
+  "subregion": "Southern Europe",
+  "unMember": true,
+  "capital": [
+   "Athens"
+  ]
+ },
+ {
+  "code": "gs",
+  "name": "South Georgia",
+  "aliases": [
+   "South Georgia and the South Sandwich Islands"
+  ],
+  "region": "Antarctic",
+  "subregion": "",
+  "unMember": false,
+  "capital": [
+   "King Edward Point"
+  ]
+ },
+ {
+  "code": "gt",
+  "name": "Guatemala",
+  "aliases": [
+   "Republic of Guatemala"
+  ],
+  "region": "Americas",
+  "subregion": "Central America",
+  "unMember": true,
+  "capital": [
+   "Guatemala City"
+  ]
+ },
+ {
+  "code": "gu",
+  "name": "Guam",
+  "aliases": [
+   "Guåhån"
+  ],
+  "region": "Oceania",
+  "subregion": "Micronesia",
+  "unMember": false,
+  "capital": [
+   "Hagåtña"
+  ]
+ },
+ {
+  "code": "gw",
+  "name": "Guinea-Bissau",
+  "aliases": [
+   "Republic of Guinea-Bissau",
+   "República da Guiné-Bissau"
+  ],
+  "region": "Africa",
+  "subregion": "Western Africa",
+  "unMember": true,
+  "capital": [
+   "Bissau"
+  ]
+ },
+ {
+  "code": "gy",
+  "name": "Guyana",
+  "aliases": [
+   "Co-operative Republic of Guyana"
+  ],
+  "region": "Americas",
+  "subregion": "South America",
+  "unMember": true,
+  "capital": [
+   "Georgetown"
+  ]
+ },
+ {
+  "code": "hk",
+  "name": "Hong Kong",
+  "aliases": [
+   "Hong Kong Special Administrative Region of the People's Republic of China"
+  ],
+  "region": "Asia",
+  "subregion": "Eastern Asia",
+  "unMember": false,
+  "capital": [
+   "City of Victoria"
+  ]
+ },
+ {
+  "code": "hm",
+  "name": "Heard Island and McDonald Islands",
+  "aliases": [],
+  "region": "Antarctic",
+  "subregion": "",
+  "unMember": false,
+  "capital": []
+ },
+ {
+  "code": "hn",
+  "name": "Honduras",
+  "aliases": [
+   "Republic of Honduras",
+   "República de Honduras"
+  ],
+  "region": "Americas",
+  "subregion": "Central America",
+  "unMember": true,
+  "capital": [
+   "Tegucigalpa"
+  ]
+ },
+ {
+  "code": "hr",
+  "name": "Croatia",
+  "aliases": [
+   "Republic of Croatia",
+   "Hrvatska",
+   "Republika Hrvatska"
+  ],
+  "region": "Europe",
+  "subregion": "Southeast Europe",
+  "unMember": true,
+  "capital": [
+   "Zagreb"
+  ]
+ },
+ {
+  "code": "ht",
+  "name": "Haiti",
+  "aliases": [
+   "Republic of Haiti",
+   "République d'Haïti",
+   "Repiblik Ayiti"
+  ],
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "unMember": true,
+  "capital": [
+   "Port-au-Prince"
+  ]
+ },
+ {
+  "code": "hu",
+  "name": "Hungary",
+  "aliases": [],
+  "region": "Europe",
+  "subregion": "Central Europe",
+  "unMember": true,
+  "capital": [
+   "Budapest"
+  ]
+ },
+ {
+  "code": "id",
+  "name": "Indonesia",
+  "aliases": [
+   "Republic of Indonesia",
+   "Republik Indonesia"
+  ],
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "unMember": true,
+  "capital": [
+   "Jakarta"
+  ]
+ },
+ {
+  "code": "ie",
+  "name": "Ireland",
+  "aliases": [
+   "Republic of Ireland",
+   "Éire",
+   "Poblacht na hÉireann"
+  ],
+  "region": "Europe",
+  "subregion": "Northern Europe",
+  "unMember": true,
+  "capital": [
+   "Dublin"
+  ]
+ },
+ {
+  "code": "il",
+  "name": "Israel",
+  "aliases": [
+   "State of Israel",
+   "Medīnat Yisrā'el"
+  ],
+  "region": "Asia",
+  "subregion": "Western Asia",
+  "unMember": true,
+  "capital": [
+   "Jerusalem"
+  ]
+ },
+ {
+  "code": "im",
+  "name": "Isle of Man",
+  "aliases": [
+   "Ellan Vannin",
+   "Mann",
+   "Mannin"
+  ],
+  "region": "Europe",
+  "subregion": "Northern Europe",
+  "unMember": false,
+  "capital": [
+   "Douglas"
+  ]
+ },
+ {
+  "code": "in",
+  "name": "India",
+  "aliases": [
+   "Republic of India",
+   "Bhārat",
+   "Bharat Ganrajya"
+  ],
+  "region": "Asia",
+  "subregion": "Southern Asia",
+  "unMember": true,
+  "capital": [
+   "New Delhi"
+  ]
+ },
+ {
+  "code": "io",
+  "name": "British Indian Ocean Territory",
+  "aliases": [],
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "unMember": false,
+  "capital": [
+   "Diego Garcia"
+  ]
+ },
+ {
+  "code": "iq",
+  "name": "Iraq",
+  "aliases": [
+   "Republic of Iraq"
+  ],
+  "region": "Asia",
+  "subregion": "Western Asia",
+  "unMember": true,
+  "capital": [
+   "Baghdad"
+  ]
+ },
+ {
+  "code": "ir",
+  "name": "Iran",
+  "aliases": [
+   "Islamic Republic of Iran",
+   "Iran, Islamic Republic of",
+   "Jomhuri-ye Eslāmi-ye Irān"
+  ],
+  "region": "Asia",
+  "subregion": "Southern Asia",
+  "unMember": true,
+  "capital": [
+   "Tehran"
+  ]
+ },
+ {
+  "code": "is",
+  "name": "Iceland",
+  "aliases": [
+   "Island",
+   "Republic of Iceland",
+   "Lýðveldið Ísland"
+  ],
+  "region": "Europe",
+  "subregion": "Northern Europe",
+  "unMember": true,
+  "capital": [
+   "Reykjavik"
+  ]
+ },
+ {
+  "code": "it",
+  "name": "Italy",
+  "aliases": [
+   "Italian Republic",
+   "Repubblica italiana"
+  ],
+  "region": "Europe",
+  "subregion": "Southern Europe",
+  "unMember": true,
+  "capital": [
+   "Rome"
+  ]
+ },
+ {
+  "code": "je",
+  "name": "Jersey",
+  "aliases": [
+   "Bailiwick of Jersey",
+   "Bailliage de Jersey",
+   "Bailliage dé Jèrri"
+  ],
+  "region": "Europe",
+  "subregion": "Northern Europe",
+  "unMember": false,
+  "capital": [
+   "Saint Helier"
+  ]
+ },
+ {
+  "code": "jm",
+  "name": "Jamaica",
+  "aliases": [],
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "unMember": true,
+  "capital": [
+   "Kingston"
+  ]
+ },
+ {
+  "code": "jo",
+  "name": "Jordan",
+  "aliases": [
+   "Hashemite Kingdom of Jordan",
+   "al-Mamlakah al-Urdunīyah al-Hāshimīyah"
+  ],
+  "region": "Asia",
+  "subregion": "Western Asia",
+  "unMember": true,
+  "capital": [
+   "Amman"
+  ]
+ },
+ {
+  "code": "jp",
+  "name": "Japan",
+  "aliases": [
+   "Nippon",
+   "Nihon"
+  ],
+  "region": "Asia",
+  "subregion": "Eastern Asia",
+  "unMember": true,
+  "capital": [
+   "Tokyo"
+  ]
+ },
+ {
+  "code": "ke",
+  "name": "Kenya",
+  "aliases": [
+   "Republic of Kenya",
+   "Jamhuri ya Kenya"
+  ],
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "unMember": true,
+  "capital": [
+   "Nairobi"
+  ]
+ },
+ {
+  "code": "kg",
+  "name": "Kyrgyzstan",
+  "aliases": [
+   "Kyrgyz Republic",
+   "Kyrgyz Respublikasy"
+  ],
+  "region": "Asia",
+  "subregion": "Central Asia",
+  "unMember": true,
+  "capital": [
+   "Bishkek"
+  ]
+ },
+ {
+  "code": "kh",
+  "name": "Cambodia",
+  "aliases": [
+   "Kingdom of Cambodia"
+  ],
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "unMember": true,
+  "capital": [
+   "Phnom Penh"
+  ]
+ },
+ {
+  "code": "ki",
+  "name": "Kiribati",
+  "aliases": [
+   "Independent and Sovereign Republic of Kiribati",
+   "Republic of Kiribati",
+   "Ribaberiki Kiribati"
+  ],
+  "region": "Oceania",
+  "subregion": "Micronesia",
+  "unMember": true,
+  "capital": [
+   "South Tarawa"
+  ]
+ },
+ {
+  "code": "km",
+  "name": "Comoros",
+  "aliases": [
+   "Union of the Comoros",
+   "Union des Comores",
+   "Udzima wa Komori",
+   "al-Ittiḥād al-Qumurī"
+  ],
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "unMember": true,
+  "capital": [
+   "Moroni"
+  ]
+ },
+ {
+  "code": "kn",
+  "name": "Saint Kitts and Nevis",
+  "aliases": [
+   "Federation of Saint Christopher and Nevis"
+  ],
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "unMember": true,
+  "capital": [
+   "Basseterre"
+  ]
+ },
+ {
+  "code": "kp",
+  "name": "North Korea",
+  "aliases": [
+   "Democratic People's Republic of Korea",
+   "DPRK",
+   "Chosŏn Minjujuŭi Inmin Konghwaguk",
+   "Korea, Democratic People's Republic of"
+  ],
+  "region": "Asia",
+  "subregion": "Eastern Asia",
+  "unMember": true,
+  "capital": [
+   "Pyongyang"
+  ]
+ },
+ {
+  "code": "kr",
+  "name": "South Korea",
+  "aliases": [
+   "Republic of Korea",
+   "Korea, Republic of"
+  ],
+  "region": "Asia",
+  "subregion": "Eastern Asia",
+  "unMember": true,
+  "capital": [
+   "Seoul"
+  ]
+ },
+ {
+  "code": "kw",
+  "name": "Kuwait",
+  "aliases": [
+   "State of Kuwait",
+   "Dawlat al-Kuwait"
+  ],
+  "region": "Asia",
+  "subregion": "Western Asia",
+  "unMember": true,
+  "capital": [
+   "Kuwait City"
+  ]
+ },
+ {
+  "code": "ky",
+  "name": "Cayman Islands",
+  "aliases": [],
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "unMember": false,
+  "capital": [
+   "George Town"
+  ]
+ },
+ {
+  "code": "kz",
+  "name": "Kazakhstan",
+  "aliases": [
+   "Republic of Kazakhstan",
+   "Qazaqstan",
+   "Qazaqstan Respublïkası",
+   "Respublika Kazakhstan"
+  ],
+  "region": "Asia",
+  "subregion": "Central Asia",
+  "unMember": true,
+  "capital": [
+   "Astana"
+  ]
+ },
+ {
+  "code": "la",
+  "name": "Laos",
+  "aliases": [
+   "Lao People's Democratic Republic",
+   "Lao",
+   "Sathalanalat Paxathipatai Paxaxon Lao"
+  ],
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "unMember": true,
+  "capital": [
+   "Vientiane"
+  ]
+ },
+ {
+  "code": "lb",
+  "name": "Lebanon",
+  "aliases": [
+   "Lebanese Republic",
+   "Al-Jumhūrīyah Al-Libnānīyah"
+  ],
+  "region": "Asia",
+  "subregion": "Western Asia",
+  "unMember": true,
+  "capital": [
+   "Beirut"
+  ]
+ },
+ {
+  "code": "lc",
+  "name": "Saint Lucia",
+  "aliases": [],
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "unMember": true,
+  "capital": [
+   "Castries"
+  ]
+ },
+ {
+  "code": "li",
+  "name": "Liechtenstein",
+  "aliases": [
+   "Principality of Liechtenstein",
+   "Fürstentum Liechtenstein"
+  ],
+  "region": "Europe",
+  "subregion": "Western Europe",
+  "unMember": true,
+  "capital": [
+   "Vaduz"
+  ]
+ },
+ {
+  "code": "lk",
+  "name": "Sri Lanka",
+  "aliases": [
+   "Democratic Socialist Republic of Sri Lanka",
+   "ilaṅkai"
+  ],
+  "region": "Asia",
+  "subregion": "Southern Asia",
+  "unMember": true,
+  "capital": [
+   "Colombo"
+  ]
+ },
+ {
+  "code": "lr",
+  "name": "Liberia",
+  "aliases": [
+   "Republic of Liberia"
+  ],
+  "region": "Africa",
+  "subregion": "Western Africa",
+  "unMember": true,
+  "capital": [
+   "Monrovia"
+  ]
+ },
+ {
+  "code": "ls",
+  "name": "Lesotho",
+  "aliases": [
+   "Kingdom of Lesotho",
+   "Muso oa Lesotho"
+  ],
+  "region": "Africa",
+  "subregion": "Southern Africa",
+  "unMember": true,
+  "capital": [
+   "Maseru"
+  ]
+ },
+ {
+  "code": "lt",
+  "name": "Lithuania",
+  "aliases": [
+   "Republic of Lithuania",
+   "Lietuvos Respublika"
+  ],
+  "region": "Europe",
+  "subregion": "Northern Europe",
+  "unMember": true,
+  "capital": [
+   "Vilnius"
+  ]
+ },
+ {
+  "code": "lu",
+  "name": "Luxembourg",
+  "aliases": [
+   "Grand Duchy of Luxembourg",
+   "Grand-Duché de Luxembourg",
+   "Großherzogtum Luxemburg",
+   "Groussherzogtum Lëtzebuerg"
+  ],
+  "region": "Europe",
+  "subregion": "Western Europe",
+  "unMember": true,
+  "capital": [
+   "Luxembourg"
+  ]
+ },
+ {
+  "code": "lv",
+  "name": "Latvia",
+  "aliases": [
+   "Republic of Latvia",
+   "Latvijas Republika"
+  ],
+  "region": "Europe",
+  "subregion": "Northern Europe",
+  "unMember": true,
+  "capital": [
+   "Riga"
+  ]
+ },
+ {
+  "code": "ly",
+  "name": "Libya",
+  "aliases": [
+   "State of Libya",
+   "Dawlat Libya"
+  ],
+  "region": "Africa",
+  "subregion": "Northern Africa",
+  "unMember": true,
+  "capital": [
+   "Tripoli"
+  ]
+ },
+ {
+  "code": "ma",
+  "name": "Morocco",
+  "aliases": [
+   "Kingdom of Morocco",
+   "Al-Mamlakah al-Maġribiyah"
+  ],
+  "region": "Africa",
+  "subregion": "Northern Africa",
+  "unMember": true,
+  "capital": [
+   "Rabat"
+  ]
+ },
+ {
+  "code": "mc",
+  "name": "Monaco",
+  "aliases": [
+   "Principality of Monaco",
+   "Principauté de Monaco"
+  ],
+  "region": "Europe",
+  "subregion": "Western Europe",
+  "unMember": true,
+  "capital": [
+   "Monaco"
+  ]
+ },
+ {
+  "code": "md",
+  "name": "Moldova",
+  "aliases": [
+   "Republic of Moldova",
+   "Moldova, Republic of",
+   "Republica Moldova"
+  ],
+  "region": "Europe",
+  "subregion": "Eastern Europe",
+  "unMember": true,
+  "capital": [
+   "Chișinău"
+  ]
+ },
+ {
+  "code": "me",
+  "name": "Montenegro",
+  "aliases": [
+   "Crna Gora"
+  ],
+  "region": "Europe",
+  "subregion": "Southeast Europe",
+  "unMember": true,
+  "capital": [
+   "Podgorica"
+  ]
+ },
+ {
+  "code": "mf",
+  "name": "Saint Martin",
+  "aliases": [
+   "Collectivity of Saint Martin",
+   "Collectivité de Saint-Martin",
+   "Saint Martin (French part)"
+  ],
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "unMember": false,
+  "capital": [
+   "Marigot"
+  ]
+ },
+ {
+  "code": "mg",
+  "name": "Madagascar",
+  "aliases": [
+   "Republic of Madagascar",
+   "Repoblikan'i Madagasikara",
+   "République de Madagascar"
+  ],
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "unMember": true,
+  "capital": [
+   "Antananarivo"
+  ]
+ },
+ {
+  "code": "mh",
+  "name": "Marshall Islands",
+  "aliases": [
+   "Republic of the Marshall Islands",
+   "Aolepān Aorōkin M̧ajeļ"
+  ],
+  "region": "Oceania",
+  "subregion": "Micronesia",
+  "unMember": true,
+  "capital": [
+   "Majuro"
+  ]
+ },
+ {
+  "code": "mk",
+  "name": "North Macedonia",
+  "aliases": [
+   "Republic of North Macedonia",
+   "The former Yugoslav Republic of Macedonia",
+   "Macedonia, The Former Yugoslav Republic of",
+   "Macedonia"
+  ],
+  "region": "Europe",
+  "subregion": "Southeast Europe",
+  "unMember": true,
+  "capital": [
+   "Skopje"
+  ]
+ },
+ {
+  "code": "ml",
+  "name": "Mali",
+  "aliases": [
+   "Republic of Mali",
+   "République du Mali"
+  ],
+  "region": "Africa",
+  "subregion": "Western Africa",
+  "unMember": true,
+  "capital": [
+   "Bamako"
+  ]
+ },
+ {
+  "code": "mm",
+  "name": "Myanmar",
+  "aliases": [
+   "Republic of the Union of Myanmar",
+   "Burma",
+   "Pyidaunzu Thanmăda Myăma Nainngandaw"
+  ],
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "unMember": true,
+  "capital": [
+   "Naypyidaw"
+  ]
+ },
+ {
+  "code": "mn",
+  "name": "Mongolia",
+  "aliases": [],
+  "region": "Asia",
+  "subregion": "Eastern Asia",
+  "unMember": true,
+  "capital": [
+   "Ulan Bator"
+  ]
+ },
+ {
+  "code": "mo",
+  "name": "Macau",
+  "aliases": [
+   "Macao Special Administrative Region of the People's Republic of China",
+   "Macao",
+   "Região Administrativa Especial de Macau da República Popular da China"
+  ],
+  "region": "Asia",
+  "subregion": "Eastern Asia",
+  "unMember": false,
+  "capital": []
+ },
+ {
+  "code": "mp",
+  "name": "Northern Mariana Islands",
+  "aliases": [
+   "Commonwealth of the Northern Mariana Islands",
+   "Sankattan Siha Na Islas Mariånas"
+  ],
+  "region": "Oceania",
+  "subregion": "Micronesia",
+  "unMember": false,
+  "capital": [
+   "Saipan"
+  ]
+ },
+ {
+  "code": "mq",
+  "name": "Martinique",
+  "aliases": [],
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "unMember": false,
+  "capital": [
+   "Fort-de-France"
+  ]
+ },
+ {
+  "code": "mr",
+  "name": "Mauritania",
+  "aliases": [
+   "Islamic Republic of Mauritania"
+  ],
+  "region": "Africa",
+  "subregion": "Western Africa",
+  "unMember": true,
+  "capital": [
+   "Nouakchott"
+  ]
+ },
+ {
+  "code": "ms",
+  "name": "Montserrat",
+  "aliases": [],
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "unMember": false,
+  "capital": [
+   "Plymouth"
+  ]
+ },
+ {
+  "code": "mt",
+  "name": "Malta",
+  "aliases": [
+   "Republic of Malta",
+   "Repubblika ta' Malta"
+  ],
+  "region": "Europe",
+  "subregion": "Southern Europe",
+  "unMember": true,
+  "capital": [
+   "Valletta"
+  ]
+ },
+ {
+  "code": "mu",
+  "name": "Mauritius",
+  "aliases": [
+   "Republic of Mauritius",
+   "République de Maurice"
+  ],
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "unMember": true,
+  "capital": [
+   "Port Louis"
+  ]
+ },
+ {
+  "code": "mv",
+  "name": "Maldives",
+  "aliases": [
+   "Republic of the Maldives",
+   "Maldive Islands",
+   "Dhivehi Raajjeyge Jumhooriyya"
+  ],
+  "region": "Asia",
+  "subregion": "Southern Asia",
+  "unMember": true,
+  "capital": [
+   "Malé"
+  ]
+ },
+ {
+  "code": "mw",
+  "name": "Malawi",
+  "aliases": [
+   "Republic of Malawi"
+  ],
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "unMember": true,
+  "capital": [
+   "Lilongwe"
+  ]
+ },
+ {
+  "code": "mx",
+  "name": "Mexico",
+  "aliases": [
+   "United Mexican States",
+   "Mexicanos",
+   "Estados Unidos Mexicanos"
+  ],
+  "region": "Americas",
+  "subregion": "North America",
+  "unMember": true,
+  "capital": [
+   "Mexico City"
+  ]
+ },
+ {
+  "code": "my",
+  "name": "Malaysia",
+  "aliases": [],
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "unMember": true,
+  "capital": [
+   "Kuala Lumpur"
+  ]
+ },
+ {
+  "code": "mz",
+  "name": "Mozambique",
+  "aliases": [
+   "Republic of Mozambique",
+   "República de Moçambique"
+  ],
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "unMember": true,
+  "capital": [
+   "Maputo"
+  ]
+ },
+ {
+  "code": "na",
+  "name": "Namibia",
+  "aliases": [
+   "Republic of Namibia",
+   "Namibië"
+  ],
+  "region": "Africa",
+  "subregion": "Southern Africa",
+  "unMember": true,
+  "capital": [
+   "Windhoek"
+  ]
+ },
+ {
+  "code": "nc",
+  "name": "New Caledonia",
+  "aliases": [],
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "unMember": false,
+  "capital": [
+   "Nouméa"
+  ]
+ },
+ {
+  "code": "ne",
+  "name": "Niger",
+  "aliases": [
+   "Republic of Niger",
+   "Nijar"
+  ],
+  "region": "Africa",
+  "subregion": "Western Africa",
+  "unMember": true,
+  "capital": [
+   "Niamey"
+  ]
+ },
+ {
+  "code": "nf",
+  "name": "Norfolk Island",
+  "aliases": [
+   "Territory of Norfolk Island",
+   "Teratri of Norf'k Ailen"
+  ],
+  "region": "Oceania",
+  "subregion": "Australia and New Zealand",
+  "unMember": false,
+  "capital": [
+   "Kingston"
+  ]
+ },
+ {
+  "code": "ng",
+  "name": "Nigeria",
+  "aliases": [
+   "Federal Republic of Nigeria",
+   "Nijeriya",
+   "Naíjíríà"
+  ],
+  "region": "Africa",
+  "subregion": "Western Africa",
+  "unMember": true,
+  "capital": [
+   "Abuja"
+  ]
+ },
+ {
+  "code": "ni",
+  "name": "Nicaragua",
+  "aliases": [
+   "Republic of Nicaragua",
+   "República de Nicaragua"
+  ],
+  "region": "Americas",
+  "subregion": "Central America",
+  "unMember": true,
+  "capital": [
+   "Managua"
+  ]
+ },
+ {
+  "code": "nl",
+  "name": "Netherlands",
+  "aliases": [
+   "Kingdom of the Netherlands",
+   "Holland",
+   "Nederland",
+   "The Netherlands"
+  ],
+  "region": "Europe",
+  "subregion": "Western Europe",
+  "unMember": true,
+  "capital": [
+   "Amsterdam"
+  ]
+ },
+ {
+  "code": "no",
+  "name": "Norway",
+  "aliases": [
+   "Kingdom of Norway",
+   "Norge",
+   "Noreg",
+   "Kongeriket Norge",
+   "Kongeriket Noreg"
+  ],
+  "region": "Europe",
+  "subregion": "Northern Europe",
+  "unMember": true,
+  "capital": [
+   "Oslo"
+  ]
+ },
+ {
+  "code": "np",
+  "name": "Nepal",
+  "aliases": [
+   "Federal Democratic Republic of Nepal",
+   "Loktāntrik Ganatantra Nepāl"
+  ],
+  "region": "Asia",
+  "subregion": "Southern Asia",
+  "unMember": true,
+  "capital": [
+   "Kathmandu"
+  ]
+ },
+ {
+  "code": "nr",
+  "name": "Nauru",
+  "aliases": [
+   "Republic of Nauru",
+   "Naoero",
+   "Pleasant Island",
+   "Ripublik Naoero"
+  ],
+  "region": "Oceania",
+  "subregion": "Micronesia",
+  "unMember": true,
+  "capital": [
+   "Yaren"
+  ]
+ },
+ {
+  "code": "nu",
+  "name": "Niue",
+  "aliases": [],
+  "region": "Oceania",
+  "subregion": "Polynesia",
+  "unMember": false,
+  "capital": [
+   "Alofi"
+  ]
+ },
+ {
+  "code": "nz",
+  "name": "New Zealand",
+  "aliases": [
+   "Aotearoa"
+  ],
+  "region": "Oceania",
+  "subregion": "Australia and New Zealand",
+  "unMember": true,
+  "capital": [
+   "Wellington"
+  ]
+ },
+ {
+  "code": "om",
+  "name": "Oman",
+  "aliases": [
+   "Sultanate of Oman"
+  ],
+  "region": "Asia",
+  "subregion": "Western Asia",
+  "unMember": true,
+  "capital": [
+   "Muscat"
+  ]
+ },
+ {
+  "code": "pa",
+  "name": "Panama",
+  "aliases": [
+   "Republic of Panama",
+   "República de Panamá"
+  ],
+  "region": "Americas",
+  "subregion": "Central America",
+  "unMember": true,
+  "capital": [
+   "Panama City"
+  ]
+ },
+ {
+  "code": "pe",
+  "name": "Peru",
+  "aliases": [
+   "Republic of Peru",
+   "República del Perú"
+  ],
+  "region": "Americas",
+  "subregion": "South America",
+  "unMember": true,
+  "capital": [
+   "Lima"
+  ]
+ },
+ {
+  "code": "pf",
+  "name": "French Polynesia",
+  "aliases": [
+   "Polynésie française",
+   "Pōrīnetia Farāni"
+  ],
+  "region": "Oceania",
+  "subregion": "Polynesia",
+  "unMember": false,
+  "capital": [
+   "Papeetē"
+  ]
+ },
+ {
+  "code": "pg",
+  "name": "Papua New Guinea",
+  "aliases": [
+   "Independent State of Papua New Guinea",
+   "Independen Stet bilong Papua Niugini"
+  ],
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "unMember": true,
+  "capital": [
+   "Port Moresby"
+  ]
+ },
+ {
+  "code": "ph",
+  "name": "Philippines",
+  "aliases": [
+   "Republic of the Philippines",
+   "Repúblika ng Pilipinas"
+  ],
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "unMember": true,
+  "capital": [
+   "Manila"
+  ]
+ },
+ {
+  "code": "pk",
+  "name": "Pakistan",
+  "aliases": [
+   "Islamic Republic of Pakistan",
+   "Pākistān",
+   "Islāmī Jumhūriya'eh Pākistān"
+  ],
+  "region": "Asia",
+  "subregion": "Southern Asia",
+  "unMember": true,
+  "capital": [
+   "Islamabad"
+  ]
+ },
+ {
+  "code": "pl",
+  "name": "Poland",
+  "aliases": [
+   "Republic of Poland",
+   "Rzeczpospolita Polska"
+  ],
+  "region": "Europe",
+  "subregion": "Central Europe",
+  "unMember": true,
+  "capital": [
+   "Warsaw"
+  ]
+ },
+ {
+  "code": "pm",
+  "name": "Saint Pierre and Miquelon",
+  "aliases": [
+   "Collectivité territoriale de Saint-Pierre-et-Miquelon"
+  ],
+  "region": "Americas",
+  "subregion": "North America",
+  "unMember": false,
+  "capital": [
+   "Saint-Pierre"
+  ]
+ },
+ {
+  "code": "pn",
+  "name": "Pitcairn Islands",
+  "aliases": [
+   "Pitcairn Group of Islands",
+   "Pitcairn",
+   "Pitcairn Henderson Ducie and Oeno Islands"
+  ],
+  "region": "Oceania",
+  "subregion": "Polynesia",
+  "unMember": false,
+  "capital": [
+   "Adamstown"
+  ]
+ },
+ {
+  "code": "pr",
+  "name": "Puerto Rico",
+  "aliases": [
+   "Commonwealth of Puerto Rico",
+   "Estado Libre Asociado de Puerto Rico"
+  ],
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "unMember": false,
+  "capital": [
+   "San Juan"
+  ]
+ },
+ {
+  "code": "ps",
+  "name": "Palestine",
+  "aliases": [
+   "State of Palestine",
+   "Palestine, State of",
+   "Dawlat Filasṭin"
+  ],
+  "region": "Asia",
+  "subregion": "Western Asia",
+  "unMember": false,
+  "capital": [
+   "Ramallah"
+  ]
+ },
+ {
+  "code": "pt",
+  "name": "Portugal",
+  "aliases": [
+   "Portuguese Republic",
+   "Portuguesa",
+   "República Portuguesa"
+  ],
+  "region": "Europe",
+  "subregion": "Southern Europe",
+  "unMember": true,
+  "capital": [
+   "Lisbon"
+  ]
+ },
+ {
+  "code": "pw",
+  "name": "Palau",
+  "aliases": [
+   "Republic of Palau",
+   "Beluu er a Belau"
+  ],
+  "region": "Oceania",
+  "subregion": "Micronesia",
+  "unMember": true,
+  "capital": [
+   "Ngerulmud"
+  ]
+ },
+ {
+  "code": "py",
+  "name": "Paraguay",
+  "aliases": [
+   "Republic of Paraguay",
+   "República del Paraguay",
+   "Tetã Paraguái"
+  ],
+  "region": "Americas",
+  "subregion": "South America",
+  "unMember": true,
+  "capital": [
+   "Asunción"
+  ]
+ },
+ {
+  "code": "qa",
+  "name": "Qatar",
+  "aliases": [
+   "State of Qatar",
+   "Dawlat Qaṭar"
+  ],
+  "region": "Asia",
+  "subregion": "Western Asia",
+  "unMember": true,
+  "capital": [
+   "Doha"
+  ]
+ },
+ {
+  "code": "re",
+  "name": "Réunion",
+  "aliases": [
+   "Réunion Island",
+   "Reunion"
+  ],
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "unMember": false,
+  "capital": [
+   "Saint-Denis"
+  ]
+ },
+ {
+  "code": "ro",
+  "name": "Romania",
+  "aliases": [
+   "Rumania",
+   "Roumania",
+   "România"
+  ],
+  "region": "Europe",
+  "subregion": "Southeast Europe",
+  "unMember": true,
+  "capital": [
+   "Bucharest"
+  ]
+ },
+ {
+  "code": "rs",
+  "name": "Serbia",
+  "aliases": [
+   "Republic of Serbia",
+   "Srbija",
+   "Republika Srbija"
+  ],
+  "region": "Europe",
+  "subregion": "Southeast Europe",
+  "unMember": true,
+  "capital": [
+   "Belgrade"
+  ]
+ },
+ {
+  "code": "ru",
+  "name": "Russia",
+  "aliases": [
+   "Russian Federation"
+  ],
+  "region": "Europe",
+  "subregion": "Eastern Europe",
+  "unMember": true,
+  "capital": [
+   "Moscow"
+  ]
+ },
+ {
+  "code": "rw",
+  "name": "Rwanda",
+  "aliases": [
+   "Republic of Rwanda",
+   "Repubulika y'u Rwanda",
+   "République du Rwanda"
+  ],
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "unMember": true,
+  "capital": [
+   "Kigali"
+  ]
+ },
+ {
+  "code": "sa",
+  "name": "Saudi Arabia",
+  "aliases": [
+   "Kingdom of Saudi Arabia",
+   "Saudi"
+  ],
+  "region": "Asia",
+  "subregion": "Western Asia",
+  "unMember": true,
+  "capital": [
+   "Riyadh"
+  ]
+ },
+ {
+  "code": "sb",
+  "name": "Solomon Islands",
+  "aliases": [],
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "unMember": true,
+  "capital": [
+   "Honiara"
+  ]
+ },
+ {
+  "code": "sc",
+  "name": "Seychelles",
+  "aliases": [
+   "Republic of Seychelles",
+   "Repiblik Sesel",
+   "République des Seychelles"
+  ],
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "unMember": true,
+  "capital": [
+   "Victoria"
+  ]
+ },
+ {
+  "code": "sd",
+  "name": "Sudan",
+  "aliases": [
+   "Republic of the Sudan",
+   "Jumhūrīyat as-Sūdān"
+  ],
+  "region": "Africa",
+  "subregion": "Northern Africa",
+  "unMember": true,
+  "capital": [
+   "Khartoum"
+  ]
+ },
+ {
+  "code": "se",
+  "name": "Sweden",
+  "aliases": [
+   "Kingdom of Sweden",
+   "Konungariket Sverige"
+  ],
+  "region": "Europe",
+  "subregion": "Northern Europe",
+  "unMember": true,
+  "capital": [
+   "Stockholm"
+  ]
+ },
+ {
+  "code": "sg",
+  "name": "Singapore",
+  "aliases": [
+   "Republic of Singapore",
+   "Singapura",
+   "Republik Singapura"
+  ],
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "unMember": true,
+  "capital": [
+   "Singapore"
+  ]
+ },
+ {
+  "code": "sh",
+  "name": "Saint Helena, Ascension and Tristan da Cunha",
+  "aliases": [
+   "Saint Helena",
+   "St. Helena, Ascension and Tristan da Cunha"
+  ],
+  "region": "Africa",
+  "subregion": "Western Africa",
+  "unMember": false,
+  "capital": [
+   "Jamestown"
+  ]
+ },
+ {
+  "code": "si",
+  "name": "Slovenia",
+  "aliases": [
+   "Republic of Slovenia",
+   "Republika Slovenija"
+  ],
+  "region": "Europe",
+  "subregion": "Central Europe",
+  "unMember": true,
+  "capital": [
+   "Ljubljana"
+  ]
+ },
+ {
+  "code": "sj",
+  "name": "Svalbard and Jan Mayen",
+  "aliases": [
+   "Svalbard og Jan Mayen",
+   "Svalbard and Jan Mayen Islands"
+  ],
+  "region": "Europe",
+  "subregion": "Northern Europe",
+  "unMember": false,
+  "capital": [
+   "Longyearbyen"
+  ]
+ },
+ {
+  "code": "sk",
+  "name": "Slovakia",
+  "aliases": [
+   "Slovak Republic",
+   "Slovenská republika"
+  ],
+  "region": "Europe",
+  "subregion": "Central Europe",
+  "unMember": true,
+  "capital": [
+   "Bratislava"
+  ]
+ },
+ {
+  "code": "sl",
+  "name": "Sierra Leone",
+  "aliases": [
+   "Republic of Sierra Leone"
+  ],
+  "region": "Africa",
+  "subregion": "Western Africa",
+  "unMember": true,
+  "capital": [
+   "Freetown"
+  ]
+ },
+ {
+  "code": "sm",
+  "name": "San Marino",
+  "aliases": [
+   "Most Serene Republic of San Marino",
+   "Republic of San Marino",
+   "Repubblica di San Marino"
+  ],
+  "region": "Europe",
+  "subregion": "Southern Europe",
+  "unMember": true,
+  "capital": [
+   "City of San Marino"
+  ]
+ },
+ {
+  "code": "sn",
+  "name": "Senegal",
+  "aliases": [
+   "Republic of Senegal",
+   "République du Sénégal"
+  ],
+  "region": "Africa",
+  "subregion": "Western Africa",
+  "unMember": true,
+  "capital": [
+   "Dakar"
+  ]
+ },
+ {
+  "code": "so",
+  "name": "Somalia",
+  "aliases": [
+   "Federal Republic of Somalia",
+   "aṣ-Ṣūmāl",
+   "Jamhuuriyadda Federaalka Soomaaliya",
+   "Jumhūriyyat aṣ-Ṣūmāl al-Fiderāliyya"
+  ],
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "unMember": true,
+  "capital": [
+   "Mogadishu"
+  ]
+ },
+ {
+  "code": "sr",
+  "name": "Suriname",
+  "aliases": [
+   "Republic of Suriname",
+   "Sarnam",
+   "Sranangron",
+   "Republiek Suriname"
+  ],
+  "region": "Americas",
+  "subregion": "South America",
+  "unMember": true,
+  "capital": [
+   "Paramaribo"
+  ]
+ },
+ {
+  "code": "ss",
+  "name": "South Sudan",
+  "aliases": [
+   "Republic of South Sudan"
+  ],
+  "region": "Africa",
+  "subregion": "Middle Africa",
+  "unMember": true,
+  "capital": [
+   "Juba"
+  ]
+ },
+ {
+  "code": "st",
+  "name": "São Tomé and Príncipe",
+  "aliases": [
+   "Democratic Republic of São Tomé and Príncipe",
+   "Sao Tome and Principe",
+   "República Democrática de São Tomé e Príncipe"
+  ],
+  "region": "Africa",
+  "subregion": "Middle Africa",
+  "unMember": true,
+  "capital": [
+   "São Tomé"
+  ]
+ },
+ {
+  "code": "sv",
+  "name": "El Salvador",
+  "aliases": [
+   "Republic of El Salvador",
+   "República de El Salvador"
+  ],
+  "region": "Americas",
+  "subregion": "Central America",
+  "unMember": true,
+  "capital": [
+   "San Salvador"
+  ]
+ },
+ {
+  "code": "sx",
+  "name": "Sint Maarten",
+  "aliases": [
+   "Sint Maarten (Dutch part)"
+  ],
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "unMember": false,
+  "capital": [
+   "Philipsburg"
+  ]
+ },
+ {
+  "code": "sy",
+  "name": "Syria",
+  "aliases": [
+   "Syrian Arab Republic"
+  ],
+  "region": "Asia",
+  "subregion": "Western Asia",
+  "unMember": true,
+  "capital": [
+   "Damascus"
+  ]
+ },
+ {
+  "code": "sz",
+  "name": "Eswatini",
+  "aliases": [
+   "Kingdom of Eswatini",
+   "Swaziland",
+   "weSwatini",
+   "Swatini",
+   "Ngwane",
+   "Umbuso weSwatini"
+  ],
+  "region": "Africa",
+  "subregion": "Southern Africa",
+  "unMember": true,
+  "capital": [
+   "Lobamba"
+  ]
+ },
+ {
+  "code": "tc",
+  "name": "Turks and Caicos Islands",
+  "aliases": [],
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "unMember": false,
+  "capital": [
+   "Cockburn Town"
+  ]
+ },
+ {
+  "code": "td",
+  "name": "Chad",
+  "aliases": [
+   "Republic of Chad",
+   "Tchad",
+   "République du Tchad"
+  ],
+  "region": "Africa",
+  "subregion": "Middle Africa",
+  "unMember": true,
+  "capital": [
+   "N'Djamena"
+  ]
+ },
+ {
+  "code": "tf",
+  "name": "French Southern and Antarctic Lands",
+  "aliases": [
+   "Territory of the French Southern and Antarctic Lands",
+   "French Southern Territories"
+  ],
+  "region": "Antarctic",
+  "subregion": "",
+  "unMember": false,
+  "capital": [
+   "Port-aux-Français"
+  ]
+ },
+ {
+  "code": "tg",
+  "name": "Togo",
+  "aliases": [
+   "Togolese Republic",
+   "Togolese",
+   "République Togolaise"
+  ],
+  "region": "Africa",
+  "subregion": "Western Africa",
+  "unMember": true,
+  "capital": [
+   "Lomé"
+  ]
+ },
+ {
+  "code": "th",
+  "name": "Thailand",
+  "aliases": [
+   "Kingdom of Thailand",
+   "Prathet",
+   "Thai",
+   "Ratcha Anachak Thai"
+  ],
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "unMember": true,
+  "capital": [
+   "Bangkok"
+  ]
+ },
+ {
+  "code": "tj",
+  "name": "Tajikistan",
+  "aliases": [
+   "Republic of Tajikistan",
+   "Toçikiston",
+   "Çumhuriyi Toçikiston"
+  ],
+  "region": "Asia",
+  "subregion": "Central Asia",
+  "unMember": true,
+  "capital": [
+   "Dushanbe"
+  ]
+ },
+ {
+  "code": "tk",
+  "name": "Tokelau",
+  "aliases": [],
+  "region": "Oceania",
+  "subregion": "Polynesia",
+  "unMember": false,
+  "capital": [
+   "Fakaofo"
+  ]
+ },
+ {
+  "code": "tl",
+  "name": "Timor-Leste",
+  "aliases": [
+   "Democratic Republic of Timor-Leste",
+   "East Timor",
+   "Timor",
+   "República Democrática de Timor-Leste",
+   "Repúblika Demokrátika Timór-Leste",
+   "Timór Lorosa'e",
+   "Timor Lorosae"
+  ],
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "unMember": true,
+  "capital": [
+   "Dili"
+  ]
+ },
+ {
+  "code": "tm",
+  "name": "Turkmenistan",
+  "aliases": [],
+  "region": "Asia",
+  "subregion": "Central Asia",
+  "unMember": true,
+  "capital": [
+   "Ashgabat"
+  ]
+ },
+ {
+  "code": "tn",
+  "name": "Tunisia",
+  "aliases": [
+   "Tunisian Republic",
+   "Republic of Tunisia",
+   "al-Jumhūriyyah at-Tūnisiyyah"
+  ],
+  "region": "Africa",
+  "subregion": "Northern Africa",
+  "unMember": true,
+  "capital": [
+   "Tunis"
+  ]
+ },
+ {
+  "code": "to",
+  "name": "Tonga",
+  "aliases": [
+   "Kingdom of Tonga"
+  ],
+  "region": "Oceania",
+  "subregion": "Polynesia",
+  "unMember": true,
+  "capital": [
+   "Nuku'alofa"
+  ]
+ },
+ {
+  "code": "tr",
+  "name": "Türkiye",
+  "aliases": [
+   "Republic of Türkiye",
+   "Turkiye",
+   "Republic of Turkey",
+   "Türkiye Cumhuriyeti"
+  ],
+  "region": "Asia",
+  "subregion": "Western Asia",
+  "unMember": true,
+  "capital": [
+   "Ankara"
+  ]
+ },
+ {
+  "code": "tt",
+  "name": "Trinidad and Tobago",
+  "aliases": [
+   "Republic of Trinidad and Tobago"
+  ],
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "unMember": true,
+  "capital": [
+   "Port of Spain"
+  ]
+ },
+ {
+  "code": "tv",
+  "name": "Tuvalu",
+  "aliases": [],
+  "region": "Oceania",
+  "subregion": "Polynesia",
+  "unMember": true,
+  "capital": [
+   "Funafuti"
+  ]
+ },
+ {
+  "code": "tw",
+  "name": "Taiwan",
+  "aliases": [
+   "Republic of China (Taiwan)",
+   "Táiwān",
+   "Republic of China",
+   "Zhōnghuá Mínguó",
+   "Chinese Taipei"
+  ],
+  "region": "Asia",
+  "subregion": "Eastern Asia",
+  "unMember": false,
+  "capital": [
+   "Taipei"
+  ]
+ },
+ {
+  "code": "tz",
+  "name": "Tanzania",
+  "aliases": [
+   "United Republic of Tanzania",
+   "Tanzania, United Republic of",
+   "Jamhuri ya Muungano wa Tanzania"
+  ],
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "unMember": true,
+  "capital": [
+   "Dodoma"
+  ]
+ },
+ {
+  "code": "ua",
+  "name": "Ukraine",
+  "aliases": [
+   "Ukrayina"
+  ],
+  "region": "Europe",
+  "subregion": "Eastern Europe",
+  "unMember": true,
+  "capital": [
+   "Kyiv"
+  ]
+ },
+ {
+  "code": "ug",
+  "name": "Uganda",
+  "aliases": [
+   "Republic of Uganda",
+   "Jamhuri ya Uganda"
+  ],
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "unMember": true,
+  "capital": [
+   "Kampala"
+  ]
+ },
+ {
+  "code": "um",
+  "name": "United States Minor Outlying Islands",
+  "aliases": [],
+  "region": "Americas",
+  "subregion": "North America",
+  "unMember": false,
+  "capital": []
+ },
+ {
+  "code": "us",
+  "name": "United States",
+  "aliases": [
+   "United States of America",
+   "USA"
+  ],
+  "region": "Americas",
+  "subregion": "North America",
+  "unMember": true,
+  "capital": [
+   "Washington D.C."
+  ]
+ },
+ {
+  "code": "uy",
+  "name": "Uruguay",
+  "aliases": [
+   "Oriental Republic of Uruguay",
+   "República Oriental del Uruguay"
+  ],
+  "region": "Americas",
+  "subregion": "South America",
+  "unMember": true,
+  "capital": [
+   "Montevideo"
+  ]
+ },
+ {
+  "code": "uz",
+  "name": "Uzbekistan",
+  "aliases": [
+   "Republic of Uzbekistan"
+  ],
+  "region": "Asia",
+  "subregion": "Central Asia",
+  "unMember": true,
+  "capital": [
+   "Tashkent"
+  ]
+ },
+ {
+  "code": "va",
+  "name": "Vatican City",
+  "aliases": [
+   "Vatican City State",
+   "Holy See (Vatican City State)",
+   "Vatican",
+   "Stato della Città del Vaticano"
+  ],
+  "region": "Europe",
+  "subregion": "Southern Europe",
+  "unMember": true,
+  "capital": [
+   "Vatican City"
+  ]
+ },
+ {
+  "code": "vc",
+  "name": "Saint Vincent and the Grenadines",
+  "aliases": [],
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "unMember": true,
+  "capital": [
+   "Kingstown"
+  ]
+ },
+ {
+  "code": "ve",
+  "name": "Venezuela",
+  "aliases": [
+   "Bolivarian Republic of Venezuela",
+   "Venezuela, Bolivarian Republic of",
+   "República Bolivariana de Venezuela"
+  ],
+  "region": "Americas",
+  "subregion": "South America",
+  "unMember": true,
+  "capital": [
+   "Caracas"
+  ]
+ },
+ {
+  "code": "vg",
+  "name": "British Virgin Islands",
+  "aliases": [
+   "Virgin Islands",
+   "Virgin Islands, British"
+  ],
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "unMember": false,
+  "capital": [
+   "Road Town"
+  ]
+ },
+ {
+  "code": "vi",
+  "name": "United States Virgin Islands",
+  "aliases": [
+   "Virgin Islands of the United States",
+   "Virgin Islands, U.S."
+  ],
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "unMember": false,
+  "capital": [
+   "Charlotte Amalie"
+  ]
+ },
+ {
+  "code": "vn",
+  "name": "Vietnam",
+  "aliases": [
+   "Socialist Republic of Vietnam",
+   "Cộng hòa Xã hội chủ nghĩa Việt Nam",
+   "Viet Nam"
+  ],
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "unMember": true,
+  "capital": [
+   "Hanoi"
+  ]
+ },
+ {
+  "code": "vu",
+  "name": "Vanuatu",
+  "aliases": [
+   "Republic of Vanuatu",
+   "Ripablik blong Vanuatu",
+   "République de Vanuatu"
+  ],
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "unMember": true,
+  "capital": [
+   "Port Vila"
+  ]
+ },
+ {
+  "code": "wf",
+  "name": "Wallis and Futuna",
+  "aliases": [
+   "Territory of the Wallis and Futuna Islands",
+   "Territoire des îles Wallis et Futuna"
+  ],
+  "region": "Oceania",
+  "subregion": "Polynesia",
+  "unMember": false,
+  "capital": [
+   "Mata-Utu"
+  ]
+ },
+ {
+  "code": "ws",
+  "name": "Samoa",
+  "aliases": [
+   "Independent State of Samoa"
+  ],
+  "region": "Oceania",
+  "subregion": "Polynesia",
+  "unMember": true,
+  "capital": [
+   "Apia"
+  ]
+ },
+ {
+  "code": "xk",
+  "name": "Kosovo",
+  "aliases": [
+   "Republic of Kosovo"
+  ],
+  "region": "Europe",
+  "subregion": "Southeast Europe",
+  "unMember": false,
+  "capital": [
+   "Pristina"
+  ]
+ },
+ {
+  "code": "ye",
+  "name": "Yemen",
+  "aliases": [
+   "Republic of Yemen",
+   "Yemeni Republic",
+   "al-Jumhūriyyah al-Yamaniyyah"
+  ],
+  "region": "Asia",
+  "subregion": "Western Asia",
+  "unMember": true,
+  "capital": [
+   "Sana'a"
+  ]
+ },
+ {
+  "code": "yt",
+  "name": "Mayotte",
+  "aliases": [
+   "Department of Mayotte",
+   "Département de Mayotte"
+  ],
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "unMember": false,
+  "capital": [
+   "Mamoudzou"
+  ]
+ },
+ {
+  "code": "za",
+  "name": "South Africa",
+  "aliases": [
+   "Republic of South Africa",
+   "RSA",
+   "Suid-Afrika"
+  ],
+  "region": "Africa",
+  "subregion": "Southern Africa",
+  "unMember": true,
+  "capital": [
+   "Pretoria",
+   "Bloemfontein",
+   "Cape Town"
+  ]
+ },
+ {
+  "code": "zm",
+  "name": "Zambia",
+  "aliases": [
+   "Republic of Zambia"
+  ],
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "unMember": true,
+  "capital": [
+   "Lusaka"
+  ]
+ },
+ {
+  "code": "zw",
+  "name": "Zimbabwe",
+  "aliases": [
+   "Republic of Zimbabwe"
+  ],
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "unMember": true,
+  "capital": [
+   "Harare"
+  ]
+ }
+]
