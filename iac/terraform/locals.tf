@@ -10,8 +10,5 @@ locals {
   # of the repository.
   spa_bucket_name = "bro-flags-of-the-world-${local.account_id}-${local.region}-an"
 
-  # The OIDC subject GitHub issues for this repository, before the ":ref:..." part. See iam.tf.
-  github_sub_prefix = "repo:OsborneSupremacy@22501712/flags-of-the-world@1420099445"
-
   site_url = local.use_custom_domain ? "https://${var.domain_name}" : "https://${aws_cloudfront_distribution.spa.domain_name}"
 }

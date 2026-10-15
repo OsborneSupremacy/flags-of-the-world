@@ -11,8 +11,9 @@ concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 
-# No id-token. A pull request never assumes the deploy role -- its trust policy admits main only --
-# and this is a public repository, so a fork's pull request runs here too.
+# No id-token, so a pull request never gets AWS credentials. This matters: the landing zone's role
+# trusts every branch of every repository under the account, and this is a public repository, so a
+# fork's pull request runs here too.
 permissions:
   contents: read
 
