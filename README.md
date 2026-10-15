@@ -50,3 +50,34 @@ cd app && npm run gen:countries
 ```
 
 Name and alias fixes go in `app/src/data/aliasOverrides.ts`, never in the JSON.
+
+## Infrastructure
+
+Terraform in `iac/terraform/` follows the conventions of `ses-ui`. It uses the `bro-tfstate` S3 backend with key `flags-of-the-world` and S3-native locking, runs in `us-east-1`, and sets no profile in the provider. It reads the `osbornesupremacy.com` hosted zone from the landing zone's remote state.
+
+It creates:
+
+- **S3 bucket:** private, in the account-regional namespace, with all public access blocked and SSE-S3 encryption. It has no website hosting. The bucket policy lets only this distribution read it, through Origin Access Control.
+- **CloudFront distribution:**
+  - Uses `PriceClass_100` and HTTP/2 + HTTP/3, and redirects HTTP to HTTPS.
+  - Hashed assets use `CachingOptimized`; `/index.html` uses `CachingDisabled`.
+  - Sends security headers (HSTS, `nosniff`, `no-referrer`, frame `DENY`) and a strict CSP.
+  - Maps 403 and 404 to `/index.html` as a safety net.
+- **Custom domain** (`flags.osbornesupremacy.com`, set by `var.domain_name`): an ACM certificate validated by DNS, plus Route 53 A/AAAA alias records. Set `domain_name = null` to use the `*.cloudfront.net` URL instead.
+
+```bash
+export AWS_PROFILE=ben
+terraform -chdir=iac/terraform init
+terraform -chdir=iac/terraform plan
+terraform -chdir=iac/terraform apply
+```
+
+Outputs: `bucket_name`, `distribution_id`, `site_url`.
+
+## Deploy
+
+See `scripts/deploy.sh` (added after the first apply).
+
+## TODO
+
+- Deploy from GitHub Actions through GitHub OIDC → an IAM role scoped to this bucket and distribution, like `ses-ui`'s workflows.

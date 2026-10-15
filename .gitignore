@@ -44,3 +44,6 @@ terraform.rc
 # planout
 # macOS
 .DS_Store
+
+# Saved plans
+tfplan

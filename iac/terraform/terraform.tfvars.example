@@ -1,0 +1,2 @@
+# Optional. The default is flags.osbornesupremacy.com; set null to use the CloudFront URL instead.
+# domain_name = null
