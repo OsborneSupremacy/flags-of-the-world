@@ -25,6 +25,7 @@ An ad-free flashcard app for learning every country's flag. It's a static React 
 | `app/src/lib/` | Pure, tested logic: answer matching, distractors, Leitner, storage, stats, backup |
 | `iac/terraform/` | S3 + CloudFront + ACM + Route 53. Backend key `flags-of-the-world` |
 | `scripts/deploy.sh` | Build, upload, invalidate |
+| `.github/workflows/` | `ci.yml` checks pull requests; `deploy.yml` deploys `main` |
 
 ## Local development
 
@@ -76,6 +77,22 @@ Outputs: `bucket_name`, `distribution_id`, `site_url`.
 
 ## Deploy
 
+### From GitHub Actions
+
+`.github/workflows/deploy.yml` deploys on every push to `main` that touches `app/`, `scripts/` or the workflow itself, and on demand from the Actions tab (**Run workflow**, on `main`). It runs lint, tests and the build, then runs `scripts/deploy.sh` on that build.
+
+As in `ses-ui`, it assumes the landing zone's `github-actions` role (`ahzborn-aws`) through GitHub OIDC. It finds the distribution by its alias, and builds the bucket name from the caller's account id the way `locals.tf` does. The only repository setting is the `AWS_ROLE_ARN` secret, which holds that role's ARN:
+
+```bash
+gh secret set AWS_ROLE_ARN --body "arn:aws:iam::<account-id>:role/github-actions"
+```
+
+That role trusts every branch of every repository under the OsborneSupremacy GitHub account, so the deploy job itself refuses to run anywhere but `main`.
+
+Pull requests get `.github/workflows/ci.yml` instead: lint, test and build, with no AWS access.
+
+### Locally
+
 ```bash
 AWS_PROFILE=ben ./scripts/deploy.sh
 ```
@@ -88,8 +105,7 @@ The script reads the bucket and distribution from `terraform output`, builds wit
 4. Deletes files the new build no longer uses (`sync --delete --size-only`, so nothing is uploaded a second time).
 5. Invalidates `/index.html` and `/`, then prints the site URL.
 
+`BUCKET`, `DISTRIBUTION_ID` and `SITE_URL`, when set, take the place of the Terraform outputs, and `SKIP_BUILD=1` publishes the existing `app/dist`. The workflow uses both.
+
 Live at https://flags.osbornesupremacy.com. It makes requests only to its own host.
 
-## TODO
-
-- Deploy from GitHub Actions through GitHub OIDC → an IAM role scoped to this bucket and distribution, like `ses-ui`'s workflows.
