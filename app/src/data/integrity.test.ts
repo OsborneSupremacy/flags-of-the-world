@@ -3,6 +3,7 @@ import { existsSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { ALL_COUNTRIES, activeCountries, countryByCode } from "./countries";
 import { aliasOverrides } from "./aliasOverrides";
+import { acceptedForms } from "../lib/answer";
 
 const flagPath = (code: string) =>
   fileURLToPath(new URL(`../../node_modules/flag-icons/flags/4x3/${code}.svg`, import.meta.url));
@@ -19,6 +20,19 @@ describe.each([
   it("has unique names", () => {
     const names = countries.map((c) => c.name.toLowerCase());
     expect(names.filter((n, i) => names.indexOf(n) !== i)).toEqual([]);
+  });
+
+  it("never accepts the same typed answer for two countries", () => {
+    const owner = new Map<string, string>();
+    const clashes: string[] = [];
+    for (const country of countries) {
+      for (const form of new Set(acceptedForms(country))) {
+        const other = owner.get(form);
+        if (other && other !== country.code) clashes.push(`${form}: ${other}/${country.code}`);
+        owner.set(form, country.code);
+      }
+    }
+    expect(clashes).toEqual([]);
   });
 });
 

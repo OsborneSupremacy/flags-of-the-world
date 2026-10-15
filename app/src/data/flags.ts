@@ -9,3 +9,9 @@ const flagUrls = import.meta.glob<string>(
 export function flagUrl(code: string): string | undefined {
   return flagUrls[`/node_modules/flag-icons/flags/4x3/${code}.svg`];
 }
+
+/** Starts fetching a flag before it is shown, so the next card does not flash empty. */
+export function preloadFlag(code: string | undefined): void {
+  const url = code && flagUrl(code);
+  if (url) new Image().src = url;
+}

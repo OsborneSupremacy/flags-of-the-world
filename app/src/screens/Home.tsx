@@ -1,7 +1,10 @@
 import { REGIONS } from "../data/countries";
-import type { Mode, RegionFilter, SessionLength, SessionOptions } from "../lib/session";
+import type { Profile } from "../lib/profiles";
+import { SESSION_LENGTHS, type Mode, type RegionFilter, type SessionOptions } from "../lib/session";
 
 interface HomeProps {
+  profile: Profile;
+  onSwitchProfile: () => void;
   options: SessionOptions;
   onChange: (options: SessionOptions) => void;
   onStart: () => void;
@@ -9,19 +12,27 @@ interface HomeProps {
 
 const MODES: { mode: Mode; label: string; blurb: string; ready: boolean }[] = [
   { mode: "flip", label: "Flip cards", blurb: "See the flag, guess, flip", ready: true },
-  { mode: "choice", label: "Multiple choice", blurb: "Pick from four", ready: false },
-  { mode: "type", label: "Type it", blurb: "Spell the name", ready: false },
+  { mode: "choice", label: "Multiple choice", blurb: "Pick from four", ready: true },
+  { mode: "type", label: "Type it", blurb: "Spell the name", ready: true },
   { mode: "lookalikes", label: "Look-alikes", blurb: "Tricky twins", ready: false },
 ];
 
-const LENGTHS: SessionLength[] = [10, 20, "all"];
-
-export function Home({ options, onChange, onStart }: HomeProps) {
+export function Home({ profile, onSwitchProfile, options, onChange, onStart }: HomeProps) {
   const set = (patch: Partial<SessionOptions>) => onChange({ ...options, ...patch });
 
   return (
     <div className="screen home">
-      <h1>Flags of the World</h1>
+      <div className="profile-bar">
+        <span className="profile-current">
+          <span className="profile-emoji" aria-hidden="true">
+            {profile.emoji}
+          </span>
+          {profile.name}
+        </span>
+        <button type="button" className="btn-link" onClick={onSwitchProfile}>
+          Switch player
+        </button>
+      </div>
 
       <fieldset className="choice-group">
         <legend>Mode</legend>
@@ -40,6 +51,16 @@ export function Home({ options, onChange, onStart }: HomeProps) {
             </button>
           ))}
         </div>
+        {options.mode === "choice" && (
+          <label className="toggle">
+            <input
+              type="checkbox"
+              checked={options.reverse}
+              onChange={(e) => set({ reverse: e.target.checked })}
+            />
+            <span>Reverse: see the name, pick the flag</span>
+          </label>
+        )}
       </fieldset>
 
       <fieldset className="choice-group">
@@ -62,7 +83,7 @@ export function Home({ options, onChange, onStart }: HomeProps) {
       <fieldset className="choice-group">
         <legend>How many</legend>
         <div className="chips">
-          {LENGTHS.map((l) => (
+          {SESSION_LENGTHS.map((l) => (
             <button
               key={l}
               type="button"

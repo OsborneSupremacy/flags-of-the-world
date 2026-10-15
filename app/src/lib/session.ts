@@ -10,7 +10,20 @@ export interface SessionOptions {
   region: RegionFilter;
   length: SessionLength;
   includeTerritories: boolean;
+  /** Multiple choice only: show the name and pick the flag. */
+  reverse: boolean;
 }
+
+export const MODES: readonly Mode[] = ["flip", "choice", "type", "lookalikes"];
+export const SESSION_LENGTHS: readonly SessionLength[] = [10, 20, "all"];
+
+export const DEFAULT_OPTIONS: SessionOptions = {
+  mode: "flip",
+  region: "all",
+  length: 10,
+  includeTerritories: false,
+  reverse: false,
+};
 
 export interface CardResult {
   code: string;

@@ -1,23 +1,21 @@
-import { useState } from "react";
-import type { Country } from "../data/countries";
+import { useEffect, useState } from "react";
+import { preloadFlag } from "../data/flags";
 import type { CardResult } from "../lib/session";
 import { useHotkeys } from "../lib/useHotkeys";
 import { Flag } from "../components/Flag";
 import { ProgressBar } from "../components/ProgressBar";
 import { encouragement, praise } from "../components/praise";
+import type { ModeProps } from "./types";
 
-interface FlipCardsProps {
-  cards: Country[];
-  onFinish: (results: CardResult[]) => void;
-}
-
-export function FlipCards({ cards, onFinish }: FlipCardsProps) {
+export function FlipCards({ cards, onAnswer, onFinish }: ModeProps) {
   const [index, setIndex] = useState(0);
   const [revealed, setRevealed] = useState(false);
   const [results, setResults] = useState<CardResult[]>([]);
   const [announcement, setAnnouncement] = useState("");
 
   const card = cards[index];
+  const upcoming = cards[index + 1]?.code;
+  useEffect(() => preloadFlag(upcoming), [upcoming]);
 
   function reveal() {
     if (!card || revealed) return;
@@ -28,6 +26,7 @@ export function FlipCards({ cards, onFinish }: FlipCardsProps) {
   function grade(correct: boolean) {
     if (!card || !revealed) return;
     const next = [...results, { code: card.code, correct }];
+    onAnswer(card.code, correct);
     setAnnouncement(correct ? praise() : encouragement());
     if (index + 1 >= cards.length) {
       onFinish(next);
