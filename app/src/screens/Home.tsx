@@ -5,19 +5,29 @@ import { SESSION_LENGTHS, type Mode, type RegionFilter, type SessionOptions } fr
 interface HomeProps {
   profile: Profile;
   onSwitchProfile: () => void;
+  onShowProgress: () => void;
+  notice: string | null;
   options: SessionOptions;
   onChange: (options: SessionOptions) => void;
   onStart: () => void;
 }
 
-const MODES: { mode: Mode; label: string; blurb: string; ready: boolean }[] = [
-  { mode: "flip", label: "Flip cards", blurb: "See the flag, guess, flip", ready: true },
-  { mode: "choice", label: "Multiple choice", blurb: "Pick from four", ready: true },
-  { mode: "type", label: "Type it", blurb: "Spell the name", ready: true },
-  { mode: "lookalikes", label: "Look-alikes", blurb: "Tricky twins", ready: false },
+const MODES: { mode: Mode; label: string; blurb: string }[] = [
+  { mode: "flip", label: "Flip cards", blurb: "See the flag, guess, flip" },
+  { mode: "choice", label: "Multiple choice", blurb: "Pick from four" },
+  { mode: "type", label: "Type it", blurb: "Spell the name" },
+  { mode: "lookalikes", label: "Look-alikes", blurb: "Tricky twins" },
 ];
 
-export function Home({ profile, onSwitchProfile, options, onChange, onStart }: HomeProps) {
+export function Home({
+  profile,
+  onSwitchProfile,
+  onShowProgress,
+  notice,
+  options,
+  onChange,
+  onStart,
+}: HomeProps) {
   const set = (patch: Partial<SessionOptions>) => onChange({ ...options, ...patch });
 
   return (
@@ -34,6 +44,10 @@ export function Home({ profile, onSwitchProfile, options, onChange, onStart }: H
         </button>
       </div>
 
+      <button type="button" className="btn progress-link" onClick={onShowProgress}>
+        <span aria-hidden="true">📊</span> My progress
+      </button>
+
       <fieldset className="choice-group">
         <legend>Mode</legend>
         <div className="mode-grid">
@@ -43,11 +57,10 @@ export function Home({ profile, onSwitchProfile, options, onChange, onStart }: H
               type="button"
               className="mode-tile"
               aria-pressed={options.mode === m.mode}
-              disabled={!m.ready}
               onClick={() => set({ mode: m.mode })}
             >
               <span className="mode-label">{m.label}</span>
-              <span className="mode-blurb">{m.ready ? m.blurb : "Coming soon"}</span>
+              <span className="mode-blurb">{m.blurb}</span>
             </button>
           ))}
         </div>
@@ -105,6 +118,12 @@ export function Home({ profile, onSwitchProfile, options, onChange, onStart }: H
         />
         <span>Include territories (Greenland, Puerto Rico, Taiwan…)</span>
       </label>
+
+      {notice && (
+        <p className="feedback feedback-bad" role="status">
+          {notice}
+        </p>
+      )}
 
       <button type="button" className="btn btn-primary btn-start" onClick={onStart}>
         Start

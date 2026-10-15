@@ -15,7 +15,9 @@ export function FlipCards({ cards, onAnswer, onFinish }: ModeProps) {
 
   const card = cards[index];
   const upcoming = cards[index + 1]?.code;
-  useEffect(() => preloadFlag(upcoming), [upcoming]);
+  useEffect(() => {
+    preloadFlag(upcoming);
+  }, [upcoming]);
 
   function reveal() {
     if (!card || revealed) return;

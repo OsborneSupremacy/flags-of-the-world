@@ -13,7 +13,9 @@ export function useSession({ cards, onAnswer, onFinish }: ModeProps) {
 
   const card = cards[index];
   const upcoming = cards[index + 1]?.code;
-  useEffect(() => preloadFlag(upcoming), [upcoming]);
+  useEffect(() => {
+    preloadFlag(upcoming);
+  }, [upcoming]);
 
   function answer(correct: boolean, message?: string) {
     if (!card || answered !== null) return;

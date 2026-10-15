@@ -11,12 +11,16 @@ import { useSession } from "./useSession";
 interface MultipleChoiceProps extends ModeProps {
   /** Show the name and pick the flag, instead of the other way round. */
   reverse: boolean;
+  /** Fixed options per country code, for the look-alikes drill. Otherwise built per card. */
+  choicesFor?: Map<string, Country[]>;
 }
 
-export function MultipleChoice({ reverse, ...props }: MultipleChoiceProps) {
+export function MultipleChoice({ reverse, choicesFor, ...props }: MultipleChoiceProps) {
   const { card, index, total, answered, announcement, answer, next } = useSession(props);
   // Built once per session so the options never reshuffle under the player's finger.
-  const [choices] = useState(() => props.cards.map((c) => buildChoices(c, props.pool)));
+  const [choices] = useState(() =>
+    props.cards.map((c) => choicesFor?.get(c.code) ?? buildChoices(c, props.pool)),
+  );
   const [picked, setPicked] = useState<string | null>(null);
 
   const options = choices[index] ?? [];
@@ -63,24 +67,46 @@ export function MultipleChoice({ reverse, ...props }: MultipleChoiceProps) {
         <Flag country={card} revealed={revealed} />
       )}
 
-      <div className={reverse ? "options options-flags" : "options"}>
-        {options.map((option, i) => (
-          <button
-            key={option.code}
-            type="button"
-            className={`option ${optionState(option)}`}
-            onClick={() => choose(option)}
-            aria-disabled={revealed}
-          >
-            <kbd>{i + 1}</kbd>
-            {reverse ? (
-              <Flag country={option} revealed={revealed} size="option" label={`Option ${i + 1}`} />
-            ) : (
-              <span className="option-text">{option.name}</span>
-            )}
-          </button>
-        ))}
-      </div>
+      {choicesFor && revealed ? (
+        // The point of the drill: once answered, the whole group side by side, named, in place of
+        // the buttons.
+        <ul
+          className="compare"
+          aria-label="Compare the look-alikes"
+          style={{ gridTemplateColumns: `repeat(${options.length}, 1fr)` }}
+        >
+          {options.map((option) => (
+            <li key={option.code} className={`compare-item ${optionState(option)}`}>
+              <Flag country={option} revealed size="option" />
+              <span>{option.name}</span>
+            </li>
+          ))}
+        </ul>
+      ) : (
+        <div className={reverse ? "options options-flags" : "options"}>
+          {options.map((option, i) => (
+            <button
+              key={option.code}
+              type="button"
+              className={`option ${optionState(option)}`}
+              onClick={() => choose(option)}
+              aria-disabled={revealed}
+            >
+              <kbd>{i + 1}</kbd>
+              {reverse ? (
+                <Flag
+                  country={option}
+                  revealed={revealed}
+                  size="option"
+                  label={`Option ${i + 1}`}
+                />
+              ) : (
+                <span className="option-text">{option.name}</span>
+              )}
+            </button>
+          ))}
+        </div>
+      )}
 
       {revealed && (
         <>
