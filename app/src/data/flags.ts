@@ -6,8 +6,19 @@ const flagUrls = import.meta.glob<string>(
   { eager: true, query: "?url", import: "default" },
 );
 
+// Local fixes for flag-icons artwork, keyed by the same code. gr.svg paints the canton after the
+// stripes; upstream paints a stripe over it, which leaves a hairline seam at some sizes.
+const overrideUrls = import.meta.glob<string>("./flagOverrides/*.svg", {
+  eager: true,
+  query: "?url",
+  import: "default",
+});
+
 export function flagUrl(code: string): string | undefined {
-  return flagUrls[`/node_modules/flag-icons/flags/4x3/${code}.svg`];
+  return (
+    overrideUrls[`./flagOverrides/${code}.svg`] ??
+    flagUrls[`/node_modules/flag-icons/flags/4x3/${code}.svg`]
+  );
 }
 
 /** Starts fetching a flag before it is shown, so the next card does not flash empty. */
