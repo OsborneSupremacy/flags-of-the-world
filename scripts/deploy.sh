@@ -28,9 +28,13 @@ echo "==> Building"
 # 1. Fingerprinted assets, cached for a year. They go up first, so the new index.html is never live
 #    while a file it references is missing. Nothing is deleted yet: anyone still running the
 #    previous build keeps loading its flags.
+#
+#    --size-only because the name already identifies the content: a hashed file that exists in the
+#    bucket is this file. Without it every rebuild's fresh timestamps re-upload all ~270 of them.
 echo "==> Uploading hashed assets"
 aws s3 sync "${DIST_DIR}/assets" "s3://${BUCKET}/assets" \
   --cache-control "public, max-age=31536000, immutable" \
+  --size-only \
   --no-progress
 
 # 2. Everything else that is not index.html (favicon.svg and any future public/ file). Their names
