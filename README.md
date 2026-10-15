@@ -76,7 +76,19 @@ Outputs: `bucket_name`, `distribution_id`, `site_url`.
 
 ## Deploy
 
-See `scripts/deploy.sh` (added after the first apply).
+```bash
+AWS_PROFILE=ben ./scripts/deploy.sh
+```
+
+The script reads the bucket and distribution from `terraform output`, builds with `npm ci && npm run build`, then:
+
+1. Uploads hashed files in `assets/` with `Cache-Control: public, max-age=31536000, immutable`.
+2. Uploads any other unhashed files (`favicon.svg`) with `no-cache`.
+3. Uploads `index.html` last with `no-cache`. This is the moment the new build goes live.
+4. Deletes files the new build no longer uses (`sync --delete --size-only`, so nothing is uploaded a second time).
+5. Invalidates `/index.html` and `/`, then prints the site URL.
+
+Live at https://flags.osbornesupremacy.com. It makes requests only to its own host.
 
 ## TODO
 
