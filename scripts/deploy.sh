@@ -4,6 +4,9 @@
 # Uses whatever AWS credentials the environment provides -- set AWS_PROFILE (e.g. AWS_PROFILE=ben)
 # for local use. Bucket and distribution come from Terraform outputs, so `terraform apply` must have
 # run first.
+#
+# CI has no Terraform state to read, so BUCKET, DISTRIBUTION_ID and SITE_URL, when set, are used
+# instead of the outputs. SKIP_BUILD=1 publishes the app/dist an earlier step already built.
 set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
@@ -18,12 +21,17 @@ tf_output() {
   terraform -chdir="${TF_DIR}" output -raw "$1"
 }
 
-BUCKET="$(tf_output bucket_name)"
-DISTRIBUTION_ID="$(tf_output distribution_id)"
-SITE_URL="$(tf_output site_url)"
+BUCKET="${BUCKET:-$(tf_output bucket_name)}"
+DISTRIBUTION_ID="${DISTRIBUTION_ID:-$(tf_output distribution_id)}"
+SITE_URL="${SITE_URL:-$(tf_output site_url)}"
 
-echo "==> Building"
-(cd "${APP_DIR}" && npm ci && npm run build)
+if [[ "${SKIP_BUILD:-}" == "1" ]]; then
+  echo "==> Skipping build, publishing the existing ${DIST_DIR}"
+  [[ -f "${DIST_DIR}/index.html" ]] || { echo "No build in ${DIST_DIR}" >&2; exit 1; }
+else
+  echo "==> Building"
+  (cd "${APP_DIR}" && npm ci && npm run build)
+fi
 
 # 1. Fingerprinted assets, cached for a year. They go up first, so the new index.html is never live
 #    while a file it references is missing. Nothing is deleted yet: anyone still running the

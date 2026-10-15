@@ -1,0 +1,85 @@
+name: Deploy
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'app/**'
+      - 'scripts/**'
+      - '.github/workflows/deploy.yml'
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+
+permissions:
+  id-token: write
+  contents: read
+
+env:
+  AWS_REGION: us-east-1
+  SITE_URL: https://flags.osbornesupremacy.com
+
+jobs:
+  deploy:
+    name: Build and deploy the site
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: '24'
+          cache: 'npm'
+          cache-dependency-path: app/package-lock.json
+
+      - name: Install dependencies
+        working-directory: app
+        run: npm ci
+
+      - name: Lint
+        working-directory: app
+        run: npm run lint
+
+      - name: Test
+        working-directory: app
+        run: npm test
+
+      - name: Build
+        working-directory: app
+        run: npm run build
+
+      # The deploy role from iac/terraform/iam.tf (terraform output deploy_role_arn). Its trust
+      # policy admits this repository's main branch only, so a manual run from another branch fails
+      # here rather than deploying it.
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v6
+        with:
+          role-to-assume: ${{ secrets.AWS_ROLE_ARN }}
+          aws-region: ${{ env.AWS_REGION }}
+
+      # The bucket name is composed from the caller's account id the way locals.tf composes it, which
+      # keeps the account id out of the repository. The distribution id is a repository variable
+      # (terraform output distribution_id) rather than looked up by alias as in ses-ui: the lookup
+      # needs cloudfront:ListDistributions, which the deploy role deliberately does not have.
+      - name: Resolve deploy targets
+        run: |
+          if [ -z "${{ vars.DISTRIBUTION_ID }}" ]; then
+            echo "The DISTRIBUTION_ID repository variable is not set." >&2
+            exit 1
+          fi
+
+          account_id=$(aws sts get-caller-identity --query Account --output text)
+          echo "BUCKET=bro-flags-of-the-world-${account_id}-${AWS_REGION}-an" >> "$GITHUB_ENV"
+          echo "DISTRIBUTION_ID=${{ vars.DISTRIBUTION_ID }}" >> "$GITHUB_ENV"
+
+      # The same script as a local deploy, given its targets through the environment instead of
+      # Terraform outputs, and publishing the build above rather than building again.
+      - name: Deploy
+        env:
+          SKIP_BUILD: '1'
+        run: ./scripts/deploy.sh
