@@ -29,7 +29,7 @@ export function Summary({ results, onAgain, onHome }: SummaryProps) {
 
       {missed.length > 0 && (
         <section>
-          <h2>Ones to practise</h2>
+          <h2>Ones to practice</h2>
           <ul className="flag-list">
             {missed.map((c) => (
               <li key={c.code}>

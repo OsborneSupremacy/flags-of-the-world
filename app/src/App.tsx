@@ -77,7 +77,7 @@ export function App() {
       (code) => countryByCode(code) ?? [],
     );
     if (cards.length === 0) {
-      setNotice("There are no flags to practise with those settings. Try another region.");
+      setNotice("There are no flags to practice with those settings. Try another region.");
       setView({ name: "home" });
       return;
     }
