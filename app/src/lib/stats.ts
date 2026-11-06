@@ -28,7 +28,7 @@ export interface WeakCard {
 }
 
 /**
- * The flags most worth practising: missed at least once, lowest box first, then worst accuracy,
+ * The flags most worth practicing: missed at least once, lowest box first, then worst accuracy,
  * then the most attempts (a card missed five times is weaker than one missed once).
  */
 export function weakestCards(countries: readonly Country[], deck: Deck, limit = 10): WeakCard[] {
